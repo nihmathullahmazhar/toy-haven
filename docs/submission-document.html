@@ -150,7 +150,7 @@
 
 <h3>5.1 How the site was tested</h3>
 <ul>
-  <li><strong>Functional testing</strong> — the 48 test cases below were executed in Google Chrome 141 on macOS, against the deployed site and a local server.</li>
+  <li><strong>Functional testing</strong> — the 48 test cases below were executed in Google Chrome 152 on macOS, against the deployed site and a local server.</li>
   <li><strong>HTML validity</strong> — every page submitted to the W3C Nu Markup Validation Service.</li>
   <li><strong>CSS validity</strong> — all three stylesheets submitted to the W3C CSS Validation Service (CSS level 3 + SVG profile).</li>
   <li><strong>Accessibility</strong> — WAVE and axe-core run on every page, in both light and dark themes, including the open modal and the invalid-form state.</li>
@@ -295,15 +295,25 @@
     <tr><td>Support</td><td>99</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
   </tbody>
 </table>
-<p>The first audit scored 84 on mobile. Three changes brought it to 99–100:</p>
+<p>All audits were run with Lighthouse 12.8 in headless Chrome. The first audit scored 84 on mobile. Three changes brought it to 99–100:</p>
 <ol>
   <li>Google Fonts are now preloaded and applied without blocking the first paint, with a <code>&lt;noscript&gt;</code> fallback — this removed 1.75 seconds of render blocking.</li>
   <li>Every product and banner image ships in two sizes (320px and 640px products, 800px and 1280px banners) served through <code>srcset</code> and <code>sizes</code>.</li>
   <li>The first hero image is preloaded and marked <code>fetchpriority="high"</code>, which fixed a slow largest-contentful-paint.</li>
 </ol>
+<table>
+  <caption>The deployed site on GitHub Pages, audited over the public internet</caption>
+  <thead><tr><th>Preset</th><th>Performance</th><th>Accessibility</th><th>Best practices</th><th>SEO</th></tr></thead>
+  <tbody>
+    <tr><td>Mobile</td><td>93</td><td>100</td><td>100</td><td>100</td></tr>
+    <tr><td>Desktop</td><td>99</td><td>100</td><td>100</td><td>100</td></tr>
+  </tbody>
+</table>
 <p class="muted">
-  Remaining suggestions are hosting concerns rather than code issues: text compression and long
-  cache lifetimes are applied automatically by GitHub Pages but not by the local test server.
+  Live performance is a few points lower than the local audit purely because of network latency:
+  Lighthouse measured a 900&nbsp;ms server response for the first request and GitHub Pages sets a
+  ten-minute cache lifetime, neither of which can be changed from the site&rsquo;s code. Total blocking
+  time is 0&nbsp;ms and cumulative layout shift is 0.029 on both presets.
 </p>
 
 <h3>5.7 Responsiveness</h3>
