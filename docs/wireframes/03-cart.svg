@@ -1,0 +1,55 @@
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1200 802' width='1200' height='802' role='img' aria-label='3. Shopping cart page wireframe'>
+<rect width='1200' height='802' fill='#ffffff'/>
+<text x='30' y='34' font-family='Helvetica, Arial, sans-serif' font-size='19' font-weight='700' fill='#5b2bd9' text-anchor='start'>3. Shopping cart page</text>
+<text x='30' y='56' font-family='Helvetica, Arial, sans-serif' font-size='12' font-weight='400' fill='#56545f' text-anchor='start'>Line items with quantity steppers, a sticky order summary and an empty state.</text>
+<rect x='40' y='80' width='320' height='676' rx='14' fill='#f7f6fb' stroke='#5b2bd9' stroke-width='1.2'/><text x='40' y='70' font-family='Helvetica, Arial, sans-serif' font-size='12' font-weight='700' fill='#5b2bd9' text-anchor='start'>Mobile — 375px (designed first)</text>
+<rect x='430' y='80' width='740' height='682' rx='14' fill='#f7f6fb' stroke='#5b2bd9' stroke-width='1.2'/><text x='430' y='70' font-family='Helvetica, Arial, sans-serif' font-size='12' font-weight='700' fill='#5b2bd9' text-anchor='start'>Desktop — 1180px</text>
+<rect x='40' y='80' width='320' height='40' rx='6' fill='#ffffff' stroke='#9a97a8' stroke-width='1.2'/><rect x='48' y='88' width='24' height='24' rx='6' fill='#ded8f7' stroke='#9a97a8' stroke-width='1.2'/><rect x='78' y='92' width='70' height='16' rx='6' fill='#ffffff' stroke='none' stroke-width='1.2'/>
+<text x='88' y='103' font-family='Helvetica, Arial, sans-serif' font-size='9' font-weight='400' fill='#3b3947' text-anchor='start'>Toy Haven</text><rect x='292' y='88' width='26' height='24' rx='6' fill='#f2f0f7' stroke='#9a97a8' stroke-width='1.2'/>
+<text x='305' y='103.333' font-family='Helvetica, Arial, sans-serif' font-size='10' font-weight='400' fill='#3b3947' text-anchor='middle'>☾</text><rect x='324' y='88' width='26' height='24' rx='6' fill='#f2f0f7' stroke='#9a97a8' stroke-width='1.2'/>
+<text x='337' y='103.333' font-family='Helvetica, Arial, sans-serif' font-size='10' font-weight='400' fill='#3b3947' text-anchor='middle'>≡</text>
+<rect x='430' y='80' width='740' height='46' rx='6' fill='#ffffff' stroke='#9a97a8' stroke-width='1.2'/><rect x='442' y='91' width='24' height='24' rx='6' fill='#ded8f7' stroke='#9a97a8' stroke-width='1.2'/><rect x='472' y='95' width='80' height='16' rx='6' fill='#ffffff' stroke='none' stroke-width='1.2'/>
+<text x='512' y='106.333' font-family='Helvetica, Arial, sans-serif' font-size='10' font-weight='400' fill='#3b3947' text-anchor='middle'>Toy Haven</text><rect x='650' y='93' width='300' height='20' rx='6' fill='#ffffff' stroke='none' stroke-width='1.2'/>
+<text x='800' y='106.333' font-family='Helvetica, Arial, sans-serif' font-size='10' font-weight='400' fill='#3b3947' text-anchor='middle'>Home · Products · Cart · Wishlist · Support</text><rect x='1124' y='91' width='34' height='24' rx='6' fill='#f2f0f7' stroke='#9a97a8' stroke-width='1.2'/>
+<text x='1141' y='106.333' font-family='Helvetica, Arial, sans-serif' font-size='10' font-weight='400' fill='#3b3947' text-anchor='middle'>☾</text>
+<rect x='50' y='130' width='300' height='56' rx='6' fill='#ffffff' stroke='#9a97a8' stroke-width='1.2'/>
+<text x='200' y='161.333' font-family='Helvetica, Arial, sans-serif' font-size='10' font-weight='400' fill='#3b3947' text-anchor='middle'>Page head + progress steps</text>
+<rect x='50' y='194' width='300' height='100' rx='6' fill='#ffffff' stroke='#9a97a8' stroke-width='1.2'/>
+<text x='200' y='240.833' font-family='Helvetica, Arial, sans-serif' font-size='10' font-weight='400' fill='#3b3947' text-anchor='middle'>Cart item: image, name,</text>
+<text x='200' y='253.833' font-family='Helvetica, Arial, sans-serif' font-size='10' font-weight='400' fill='#3b3947' text-anchor='middle'>price, − 1 +, subtotal, remove</text>
+<rect x='50' y='302' width='300' height='100' rx='6' fill='#ffffff' stroke='#9a97a8' stroke-width='1.2'/>
+<text x='200' y='355.333' font-family='Helvetica, Arial, sans-serif' font-size='10' font-weight='400' fill='#3b3947' text-anchor='middle'>Cart item</text>
+<rect x='50' y='410' width='300' height='56' rx='6' fill='#ffffff' stroke='#9a97a8' stroke-width='1.2'/>
+<text x='200' y='441.333' font-family='Helvetica, Arial, sans-serif' font-size='10' font-weight='400' fill='#3b3947' text-anchor='middle'>Continue shopping / Clear cart</text>
+<rect x='50' y='474' width='300' height='150' rx='6' fill='#eeecf5' stroke='#9a97a8' stroke-width='1.2'/>
+<text x='200' y='539.333' font-family='Helvetica, Arial, sans-serif' font-size='10' font-weight='400' fill='#3b3947' text-anchor='middle'>Order summary</text>
+<text x='200' y='552.333' font-family='Helvetica, Arial, sans-serif' font-size='10' font-weight='400' fill='#3b3947' text-anchor='middle'>subtotal, delivery, VAT, total</text>
+<text x='200' y='565.333' font-family='Helvetica, Arial, sans-serif' font-size='10' font-weight='400' fill='#3b3947' text-anchor='middle'>Proceed to Checkout</text>
+<rect x='40' y='646' width='320' height='110' rx='6' fill='#f2f0f7' stroke='#9a97a8' stroke-width='1.2'/><rect x='50' y='656' width='300' height='20' rx='6' fill='#ffffff' stroke='#9a97a8' stroke-width='1.2'/>
+<text x='200' y='669' font-family='Helvetica, Arial, sans-serif' font-size='9' font-weight='400' fill='#3b3947' text-anchor='middle'>Brand + blurb</text><rect x='50' y='680' width='145' height='20' rx='6' fill='#ffffff' stroke='#9a97a8' stroke-width='1.2'/>
+<text x='122.5' y='693' font-family='Helvetica, Arial, sans-serif' font-size='9' font-weight='400' fill='#3b3947' text-anchor='middle'>Shop links</text><rect x='205' y='680' width='145' height='20' rx='6' fill='#ffffff' stroke='#9a97a8' stroke-width='1.2'/>
+<text x='277.5' y='693' font-family='Helvetica, Arial, sans-serif' font-size='9' font-weight='400' fill='#3b3947' text-anchor='middle'>Help links</text><rect x='50' y='704' width='300' height='40' rx='6' fill='#ffffff' stroke='#9a97a8' stroke-width='1.2'/>
+<text x='200' y='727' font-family='Helvetica, Arial, sans-serif' font-size='9' font-weight='400' fill='#3b3947' text-anchor='middle'>Newsletter form (localStorage)</text>
+<rect x='444' y='140' width='712' height='70' rx='6' fill='#ffffff' stroke='#9a97a8' stroke-width='1.2'/>
+<text x='800' y='178.667' font-family='Helvetica, Arial, sans-serif' font-size='11' font-weight='400' fill='#3b3947' text-anchor='middle'>Page head — breadcrumb, title, intro</text>
+<rect x='444' y='220' width='712' height='40' rx='6' fill='#ffffff' stroke='#9a97a8' stroke-width='1.2'/>
+<text x='800' y='243.667' font-family='Helvetica, Arial, sans-serif' font-size='11' font-weight='400' fill='#3b3947' text-anchor='middle'>1 Basket → 2 Checkout → 3 Confirmation</text>
+<rect x='444' y='270' width='351' height='230' rx='6' fill='#ffffff' stroke='#9a97a8' stroke-width='1.2'/>
+<text x='619.5' y='388.333' font-family='Helvetica, Arial, sans-serif' font-size='10' font-weight='400' fill='#3b3947' text-anchor='middle'>Cart table: product · price · quantity stepper · subtotal · remove</text>
+<rect x='805' y='270' width='351' height='230' rx='6' fill='#ffffff' stroke='#9a97a8' stroke-width='1.2'/>
+<text x='980.5' y='355.833' font-family='Helvetica, Arial, sans-serif' font-size='10' font-weight='400' fill='#3b3947' text-anchor='middle'>Order summary (sticky)</text>
+<text x='980.5' y='368.833' font-family='Helvetica, Arial, sans-serif' font-size='10' font-weight='400' fill='#3b3947' text-anchor='middle'>Subtotal</text>
+<text x='980.5' y='381.833' font-family='Helvetica, Arial, sans-serif' font-size='10' font-weight='400' fill='#3b3947' text-anchor='middle'>Delivery</text>
+<text x='980.5' y='394.833' font-family='Helvetica, Arial, sans-serif' font-size='10' font-weight='400' fill='#3b3947' text-anchor='middle'>VAT</text>
+<text x='980.5' y='407.833' font-family='Helvetica, Arial, sans-serif' font-size='10' font-weight='400' fill='#3b3947' text-anchor='middle'>Total</text>
+<text x='980.5' y='420.833' font-family='Helvetica, Arial, sans-serif' font-size='10' font-weight='400' fill='#3b3947' text-anchor='middle'>Proceed to Checkout</text>
+<rect x='444' y='510' width='712' height='56' rx='6' fill='#ffffff' stroke='#9a97a8' stroke-width='1.2'/>
+<text x='800' y='541.667' font-family='Helvetica, Arial, sans-serif' font-size='11' font-weight='400' fill='#3b3947' text-anchor='middle'>Continue shopping                    Clear cart</text>
+<rect x='444' y='576' width='712' height='70' rx='6' fill='#eeecf5' stroke='#9a97a8' stroke-width='1.2'/>
+<text x='800' y='614.667' font-family='Helvetica, Arial, sans-serif' font-size='11' font-weight='400' fill='#3b3947' text-anchor='middle'>Empty state replaces the table when the basket is empty</text>
+<rect x='430' y='670' width='740' height='92' rx='6' fill='#f2f0f7' stroke='#9a97a8' stroke-width='1.2'/><rect x='440' y='682' width='172.5' height='66' rx='6' fill='#ffffff' stroke='#9a97a8' stroke-width='1.2'/>
+<text x='526.25' y='718' font-family='Helvetica, Arial, sans-serif' font-size='9' font-weight='400' fill='#3b3947' text-anchor='middle'>Brand + blurb</text><rect x='622.5' y='682' width='172.5' height='66' rx='6' fill='#ffffff' stroke='#9a97a8' stroke-width='1.2'/>
+<text x='708.75' y='718' font-family='Helvetica, Arial, sans-serif' font-size='9' font-weight='400' fill='#3b3947' text-anchor='middle'>Shop links</text><rect x='805' y='682' width='172.5' height='66' rx='6' fill='#ffffff' stroke='#9a97a8' stroke-width='1.2'/>
+<text x='891.25' y='718' font-family='Helvetica, Arial, sans-serif' font-size='9' font-weight='400' fill='#3b3947' text-anchor='middle'>Help links</text><rect x='987.5' y='682' width='172.5' height='66' rx='6' fill='#ffffff' stroke='#9a97a8' stroke-width='1.2'/>
+<text x='1073.75' y='718' font-family='Helvetica, Arial, sans-serif' font-size='9' font-weight='400' fill='#3b3947' text-anchor='middle'>Newsletter form</text>
+</svg>

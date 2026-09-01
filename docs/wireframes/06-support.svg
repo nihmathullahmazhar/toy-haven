@@ -1,0 +1,52 @@
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1200 958' width='1200' height='958' role='img' aria-label='6. Feedback and support page wireframe'>
+<rect width='1200' height='958' fill='#ffffff'/>
+<text x='30' y='34' font-family='Helvetica, Arial, sans-serif' font-size='19' font-weight='700' fill='#5b2bd9' text-anchor='start'>6. Feedback and support page</text>
+<text x='30' y='56' font-family='Helvetica, Arial, sans-serif' font-size='12' font-weight='400' fill='#56545f' text-anchor='start'>Validated contact form, saved-message log, contact details, opening hours table and FAQ accordion.</text>
+<rect x='40' y='80' width='320' height='838' rx='14' fill='#f7f6fb' stroke='#5b2bd9' stroke-width='1.2'/><text x='40' y='70' font-family='Helvetica, Arial, sans-serif' font-size='12' font-weight='700' fill='#5b2bd9' text-anchor='start'>Mobile — 375px (designed first)</text>
+<rect x='430' y='80' width='740' height='756' rx='14' fill='#f7f6fb' stroke='#5b2bd9' stroke-width='1.2'/><text x='430' y='70' font-family='Helvetica, Arial, sans-serif' font-size='12' font-weight='700' fill='#5b2bd9' text-anchor='start'>Desktop — 1180px</text>
+<rect x='40' y='80' width='320' height='40' rx='6' fill='#ffffff' stroke='#9a97a8' stroke-width='1.2'/><rect x='48' y='88' width='24' height='24' rx='6' fill='#ded8f7' stroke='#9a97a8' stroke-width='1.2'/><rect x='78' y='92' width='70' height='16' rx='6' fill='#ffffff' stroke='none' stroke-width='1.2'/>
+<text x='88' y='103' font-family='Helvetica, Arial, sans-serif' font-size='9' font-weight='400' fill='#3b3947' text-anchor='start'>Toy Haven</text><rect x='292' y='88' width='26' height='24' rx='6' fill='#f2f0f7' stroke='#9a97a8' stroke-width='1.2'/>
+<text x='305' y='103.333' font-family='Helvetica, Arial, sans-serif' font-size='10' font-weight='400' fill='#3b3947' text-anchor='middle'>☾</text><rect x='324' y='88' width='26' height='24' rx='6' fill='#f2f0f7' stroke='#9a97a8' stroke-width='1.2'/>
+<text x='337' y='103.333' font-family='Helvetica, Arial, sans-serif' font-size='10' font-weight='400' fill='#3b3947' text-anchor='middle'>≡</text>
+<rect x='430' y='80' width='740' height='46' rx='6' fill='#ffffff' stroke='#9a97a8' stroke-width='1.2'/><rect x='442' y='91' width='24' height='24' rx='6' fill='#ded8f7' stroke='#9a97a8' stroke-width='1.2'/><rect x='472' y='95' width='80' height='16' rx='6' fill='#ffffff' stroke='none' stroke-width='1.2'/>
+<text x='512' y='106.333' font-family='Helvetica, Arial, sans-serif' font-size='10' font-weight='400' fill='#3b3947' text-anchor='middle'>Toy Haven</text><rect x='650' y='93' width='300' height='20' rx='6' fill='#ffffff' stroke='none' stroke-width='1.2'/>
+<text x='800' y='106.333' font-family='Helvetica, Arial, sans-serif' font-size='10' font-weight='400' fill='#3b3947' text-anchor='middle'>Home · Products · Cart · Wishlist · Support</text><rect x='1124' y='91' width='34' height='24' rx='6' fill='#f2f0f7' stroke='#9a97a8' stroke-width='1.2'/>
+<text x='1141' y='106.333' font-family='Helvetica, Arial, sans-serif' font-size='10' font-weight='400' fill='#3b3947' text-anchor='middle'>☾</text>
+<rect x='50' y='130' width='300' height='56' rx='6' fill='#ffffff' stroke='#9a97a8' stroke-width='1.2'/>
+<text x='200' y='161.333' font-family='Helvetica, Arial, sans-serif' font-size='10' font-weight='400' fill='#3b3947' text-anchor='middle'>Page head + breadcrumb</text>
+<rect x='50' y='194' width='300' height='170' rx='6' fill='#ffffff' stroke='#9a97a8' stroke-width='1.2'/>
+<text x='200' y='275.833' font-family='Helvetica, Arial, sans-serif' font-size='10' font-weight='400' fill='#3b3947' text-anchor='middle'>Feedback form</text>
+<text x='200' y='288.833' font-family='Helvetica, Arial, sans-serif' font-size='10' font-weight='400' fill='#3b3947' text-anchor='middle'>name, email, topic, message</text>
+<rect x='50' y='372' width='300' height='70' rx='6' fill='#eeecf5' stroke='#9a97a8' stroke-width='1.2'/>
+<text x='200' y='410.333' font-family='Helvetica, Arial, sans-serif' font-size='10' font-weight='400' fill='#3b3947' text-anchor='middle'>Confirmation panel after sending</text>
+<rect x='50' y='450' width='300' height='90' rx='6' fill='#ffffff' stroke='#9a97a8' stroke-width='1.2'/>
+<text x='200' y='498.333' font-family='Helvetica, Arial, sans-serif' font-size='10' font-weight='400' fill='#3b3947' text-anchor='middle'>Saved messages table</text>
+<rect x='50' y='548' width='300' height='110' rx='6' fill='#ffffff' stroke='#9a97a8' stroke-width='1.2'/>
+<text x='200' y='606.333' font-family='Helvetica, Arial, sans-serif' font-size='10' font-weight='400' fill='#3b3947' text-anchor='middle'>Contact details + opening hours</text>
+<rect x='50' y='666' width='300' height='120' rx='6' fill='#eeecf5' stroke='#9a97a8' stroke-width='1.2'/>
+<text x='200' y='729.333' font-family='Helvetica, Arial, sans-serif' font-size='10' font-weight='400' fill='#3b3947' text-anchor='middle'>FAQ accordion (6 questions)</text>
+<rect x='40' y='808' width='320' height='110' rx='6' fill='#f2f0f7' stroke='#9a97a8' stroke-width='1.2'/><rect x='50' y='818' width='300' height='20' rx='6' fill='#ffffff' stroke='#9a97a8' stroke-width='1.2'/>
+<text x='200' y='831' font-family='Helvetica, Arial, sans-serif' font-size='9' font-weight='400' fill='#3b3947' text-anchor='middle'>Brand + blurb</text><rect x='50' y='842' width='145' height='20' rx='6' fill='#ffffff' stroke='#9a97a8' stroke-width='1.2'/>
+<text x='122.5' y='855' font-family='Helvetica, Arial, sans-serif' font-size='9' font-weight='400' fill='#3b3947' text-anchor='middle'>Shop links</text><rect x='205' y='842' width='145' height='20' rx='6' fill='#ffffff' stroke='#9a97a8' stroke-width='1.2'/>
+<text x='277.5' y='855' font-family='Helvetica, Arial, sans-serif' font-size='9' font-weight='400' fill='#3b3947' text-anchor='middle'>Help links</text><rect x='50' y='866' width='300' height='40' rx='6' fill='#ffffff' stroke='#9a97a8' stroke-width='1.2'/>
+<text x='200' y='889' font-family='Helvetica, Arial, sans-serif' font-size='9' font-weight='400' fill='#3b3947' text-anchor='middle'>Newsletter form (localStorage)</text>
+<rect x='444' y='140' width='712' height='70' rx='6' fill='#ffffff' stroke='#9a97a8' stroke-width='1.2'/>
+<text x='800' y='178.667' font-family='Helvetica, Arial, sans-serif' font-size='11' font-weight='400' fill='#3b3947' text-anchor='middle'>Page head — breadcrumb, title, intro</text>
+<rect x='444' y='220' width='351' height='250' rx='6' fill='#ffffff' stroke='#9a97a8' stroke-width='1.2'/>
+<text x='619.5' y='335.333' font-family='Helvetica, Arial, sans-serif' font-size='10' font-weight='400' fill='#3b3947' text-anchor='middle'>Feedback form</text>
+<text x='619.5' y='348.333' font-family='Helvetica, Arial, sans-serif' font-size='10' font-weight='400' fill='#3b3947' text-anchor='middle'>name · email · topic · message</text>
+<text x='619.5' y='361.333' font-family='Helvetica, Arial, sans-serif' font-size='10' font-weight='400' fill='#3b3947' text-anchor='middle'>inline validation and success panel</text>
+<rect x='805' y='220' width='351' height='250' rx='6' fill='#ffffff' stroke='#9a97a8' stroke-width='1.2'/>
+<text x='980.5' y='335.333' font-family='Helvetica, Arial, sans-serif' font-size='10' font-weight='400' fill='#3b3947' text-anchor='middle'>Other ways to reach us</text>
+<text x='980.5' y='348.333' font-family='Helvetica, Arial, sans-serif' font-size='10' font-weight='400' fill='#3b3947' text-anchor='middle'>email · phone · collection point</text>
+<text x='980.5' y='361.333' font-family='Helvetica, Arial, sans-serif' font-size='10' font-weight='400' fill='#3b3947' text-anchor='middle'>opening hours table</text>
+<rect x='444' y='480' width='712' height='90' rx='6' fill='#ffffff' stroke='#9a97a8' stroke-width='1.2'/>
+<text x='800' y='528.667' font-family='Helvetica, Arial, sans-serif' font-size='11' font-weight='400' fill='#3b3947' text-anchor='middle'>Saved messages table (reference, sent, topic, message)</text>
+<rect x='444' y='580' width='712' height='140' rx='6' fill='#eeecf5' stroke='#9a97a8' stroke-width='1.2'/>
+<text x='800' y='653.667' font-family='Helvetica, Arial, sans-serif' font-size='11' font-weight='400' fill='#3b3947' text-anchor='middle'>FAQ accordion — one answer open at a time, arrow-key support</text>
+<rect x='430' y='744' width='740' height='92' rx='6' fill='#f2f0f7' stroke='#9a97a8' stroke-width='1.2'/><rect x='440' y='756' width='172.5' height='66' rx='6' fill='#ffffff' stroke='#9a97a8' stroke-width='1.2'/>
+<text x='526.25' y='792' font-family='Helvetica, Arial, sans-serif' font-size='9' font-weight='400' fill='#3b3947' text-anchor='middle'>Brand + blurb</text><rect x='622.5' y='756' width='172.5' height='66' rx='6' fill='#ffffff' stroke='#9a97a8' stroke-width='1.2'/>
+<text x='708.75' y='792' font-family='Helvetica, Arial, sans-serif' font-size='9' font-weight='400' fill='#3b3947' text-anchor='middle'>Shop links</text><rect x='805' y='756' width='172.5' height='66' rx='6' fill='#ffffff' stroke='#9a97a8' stroke-width='1.2'/>
+<text x='891.25' y='792' font-family='Helvetica, Arial, sans-serif' font-size='9' font-weight='400' fill='#3b3947' text-anchor='middle'>Help links</text><rect x='987.5' y='756' width='172.5' height='66' rx='6' fill='#ffffff' stroke='#9a97a8' stroke-width='1.2'/>
+<text x='1073.75' y='792' font-family='Helvetica, Arial, sans-serif' font-size='9' font-weight='400' fill='#3b3947' text-anchor='middle'>Newsletter form</text>
+</svg>

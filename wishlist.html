@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js" data-page="wishlist">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Wishlist | Toy Haven</title>
+  <meta name="description" content="Your saved Toy Haven products. Mark each one Interested, Owned or Not interested and move anything you want straight to the basket.">
+  <meta name="author" content="Toy Haven">
+  <meta name="theme-color" content="#5b2bd9">
+  <link rel="canonical" href="https://nihmathullahmazhar.github.io/toy-haven/wishlist.html">
+
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Toy Haven">
+  <meta property="og:title" content="Wishlist | Toy Haven">
+  <meta property="og:description" content="Your saved Toy Haven products. Mark each one Interested, Owned or Not interested and move anything you want straight to the basket.">
+  <meta property="og:url" content="https://nihmathullahmazhar.github.io/toy-haven/wishlist.html">
+  <meta property="og:image" content="https://nihmathullahmazhar.github.io/toy-haven/assets/img/og-image.png">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <link rel="icon" href="assets/icons/favicon.ico" sizes="any">
+  <link rel="icon" type="image/png" href="assets/icons/icon-32.png" sizes="32x32">
+  <link rel="apple-touch-icon" href="assets/icons/icon-180.png">
+  <link rel="manifest" href="manifest.webmanifest">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <!-- Fonts are loaded without blocking the first paint; the fallback stack
+       in base.css is used until they arrive. -->
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600&amp;family=Plus+Jakarta+Sans:wght@400;500;600;700&amp;display=swap" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600&amp;family=Plus+Jakarta+Sans:wght@400;500;600;700&amp;display=swap">
+  </noscript>
+
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/pages.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <header class="site-header">
+    <div class="wrap site-header__inner">
+      <a class="brand" href="index.html">
+        <img src="assets/icons/icon-192.png" alt="" width="38" height="38">
+        <span>Toy Haven</span>
+      </a>
+
+      <nav class="nav" id="primary-nav" aria-label="Main navigation">
+        <ul class="nav__list">
+          <li><a class="nav__link" href="index.html">Home</a></li>
+          <li><a class="nav__link" href="products.html">Products</a></li>
+          <li><a class="nav__link" href="cart.html">Cart <span class="nav-count" data-cart-count>0</span></a></li>
+          <li><a class="nav__link" href="wishlist.html" aria-current="page">Wishlist <span class="nav-count" data-wishlist-count>0</span></a></li>
+          <li><a class="nav__link" href="support.html">Support</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-actions">
+        <button type="button" class="icon-btn" data-theme-toggle aria-pressed="false" aria-label="Switch to dark theme">
+          <span class="theme-icon" aria-hidden="true">&#9790;</span>
+        </button>
+        <button type="button" class="hamburger" aria-expanded="false" aria-controls="primary-nav" aria-label="Toggle navigation menu">
+          <span class="hamburger__box">
+            <span class="hamburger__bar"></span>
+            <span class="hamburger__bar"></span>
+            <span class="hamburger__bar"></span>
+          </span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="page-head">
+      <div class="wrap">
+        <nav aria-label="Breadcrumb">
+          <ol class="breadcrumb">
+            <li><a href="index.html">Home</a></li>
+            <li aria-current="page">Wishlist</li>
+          </ol>
+        </nav>
+        <h1>Your collection</h1>
+        <p class="lead mb-0">Save anything from the shop, then mark it Interested, Owned or Not interested. Your choices are stored on this device and stay between visits.</p>
+      </div>
+    </section>
+
+    <section class="section wrap" aria-labelledby="wishlist-title">
+      <h2 class="visually-hidden" id="wishlist-title">Saved products</h2>
+
+      <div class="wish-summary" data-wish-summary>
+        <div class="wish-summary__cell">
+          <p class="stat__value" data-wish-total>0</p>
+          <p class="stat__label mb-0">Saved</p>
+        </div>
+        <div class="wish-summary__cell">
+          <p class="stat__value" data-wish-interested>0</p>
+          <p class="stat__label mb-0">Interested</p>
+        </div>
+        <div class="wish-summary__cell">
+          <p class="stat__value" data-wish-owned>0</p>
+          <p class="stat__label mb-0">Owned</p>
+        </div>
+        <div class="wish-summary__cell">
+          <p class="stat__value" data-wish-not>0</p>
+          <p class="stat__label mb-0">Not interested</p>
+        </div>
+      </div>
+
+      <div class="results-line">
+        <div class="filter-group" role="group" aria-label="Filter saved products by status" data-wish-filters>
+          <button type="button" class="chip" data-wish-filter="all" aria-pressed="true">All</button>
+          <button type="button" class="chip" data-wish-filter="interested" aria-pressed="false">Interested</button>
+          <button type="button" class="chip" data-wish-filter="owned" aria-pressed="false">Owned</button>
+          <button type="button" class="chip" data-wish-filter="not-interested" aria-pressed="false">Not interested</button>
+        </div>
+        <button type="button" class="btn btn--quiet btn--small" data-clear-wishlist>Clear wishlist</button>
+      </div>
+
+      <div class="grid grid--cards" data-wish-grid></div>
+      <div data-wish-empty hidden></div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <div class="footer-grid">
+        <div>
+          <h2>Toy Haven</h2>
+          <p class="muted">A calm, colourful place to find collectible figurines, board games, toys and diecast model cars — built for collectors, hobbyists and gift shoppers alike.</p>
+        </div>
+
+        <div>
+          <h3>Shop</h3>
+          <ul class="footer-list">
+            <li><a href="products.html?category=figurines">Figurines</a></li>
+            <li><a href="products.html?category=toys">Toys</a></li>
+            <li><a href="products.html?category=board-games">Board Games</a></li>
+            <li><a href="products.html?category=diecast">Diecast Cars</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h3>Help</h3>
+          <ul class="footer-list">
+            <li><a href="support.html">Feedback &amp; Support</a></li>
+            <li><a href="support.html#faq">Delivery FAQ</a></li>
+            <li><a href="cart.html">Your basket</a></li>
+            <li><a href="wishlist.html">Your collection</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h3>Newsletter</h3>
+          <p class="muted"><small>One email a month: new arrivals, restocks and collector guides. Your address is stored on this device only.</small></p>
+          <form class="newsletter" data-newsletter-form novalidate>
+            <div class="field">
+              <label for="newsletter-email">Email address</label>
+              <input class="input" type="email" id="newsletter-email" name="email" autocomplete="email" placeholder="you@example.com">
+              <span class="error-text" id="newsletter-email-error" role="alert"></span>
+            </div>
+            <button class="btn" type="submit">Subscribe</button>
+          </form>
+          <p class="muted" data-newsletter-note role="status"><small></small></p>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p class="mb-0"><small>&copy; <span data-year>2026</span> Toy Haven. Student coursework project — no real transactions take place.</small></p>
+        <p class="mb-0"><small>Built with HTML, CSS and JavaScript. Hosted on GitHub Pages.</small></p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/data.js"></script>
+  <script src="js/app.js"></script>
+  <script src="js/components.js"></script>
+  <script src="js/wishlist.js"></script>
+</body>
+</html>

@@ -1,0 +1,33 @@
+/* Print-friendly stylesheet for the Toy Haven submission document. */
+:root{--ink:#17161c;--soft:#56545f;--line:#ddd9e8;--brand:#5b2bd9;--bg:#ffffff;--ok:#0b7a4b;}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.65 "Helvetica Neue",Arial,sans-serif}
+.page{max-width:960px;margin:0 auto;padding:48px 32px 96px}
+h1{font-size:2.4rem;margin:0 0 8px;line-height:1.15}
+h2{font-size:1.6rem;margin:48px 0 12px;padding-bottom:8px;border-bottom:2px solid var(--brand)}
+h3{font-size:1.15rem;margin:28px 0 8px}
+p,li{max-width:78ch}
+table{width:100%;border-collapse:collapse;margin:14px 0 26px;font-size:0.86rem}
+th,td{border:1px solid var(--line);padding:7px 9px;text-align:left;vertical-align:top}
+th{background:#f4f1fa}
+caption{caption-side:top;text-align:left;font-weight:700;padding-bottom:6px}
+code{background:#f4f1fa;padding:1px 5px;border-radius:4px;font-size:0.9em}
+.meta{border:1px solid var(--line);border-radius:10px;padding:16px 20px;background:#faf8ff}
+.meta dl{display:grid;grid-template-columns:170px 1fr;gap:6px 16px;margin:0}
+.meta dt{font-weight:700;color:var(--soft)}
+.meta dd{margin:0}
+.pass{color:var(--ok);font-weight:700}
+.muted{color:var(--soft)}
+.wire{width:100%;border:1px solid var(--line);border-radius:10px;margin:10px 0 26px;background:#fff}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:20px}
+.callout{border-left:4px solid var(--brand);background:#f7f5ff;padding:12px 16px;border-radius:0 8px 8px 0}
+a{color:var(--brand)}
+@media print{
+  body{font-size:11pt}
+  .page{padding:0}
+  h2{page-break-after:avoid}
+  table{page-break-inside:auto}
+  tr{page-break-inside:avoid}
+  .wire{page-break-inside:avoid}
+}
+@media (max-width:720px){.grid2{grid-template-columns:1fr}.meta dl{grid-template-columns:1fr}}

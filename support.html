@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js" data-page="support">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Feedback & Support | Toy Haven</title>
+  <meta name="description" content="Contact the Toy Haven support desk with a validated feedback form, and read answers to the six questions we are asked most often.">
+  <meta name="author" content="Toy Haven">
+  <meta name="theme-color" content="#5b2bd9">
+  <link rel="canonical" href="https://nihmathullahmazhar.github.io/toy-haven/support.html">
+
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Toy Haven">
+  <meta property="og:title" content="Feedback & Support | Toy Haven">
+  <meta property="og:description" content="Contact the Toy Haven support desk with a validated feedback form, and read answers to the six questions we are asked most often.">
+  <meta property="og:url" content="https://nihmathullahmazhar.github.io/toy-haven/support.html">
+  <meta property="og:image" content="https://nihmathullahmazhar.github.io/toy-haven/assets/img/og-image.png">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <link rel="icon" href="assets/icons/favicon.ico" sizes="any">
+  <link rel="icon" type="image/png" href="assets/icons/icon-32.png" sizes="32x32">
+  <link rel="apple-touch-icon" href="assets/icons/icon-180.png">
+  <link rel="manifest" href="manifest.webmanifest">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <!-- Fonts are loaded without blocking the first paint; the fallback stack
+       in base.css is used until they arrive. -->
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600&amp;family=Plus+Jakarta+Sans:wght@400;500;600;700&amp;display=swap" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600&amp;family=Plus+Jakarta+Sans:wght@400;500;600;700&amp;display=swap">
+  </noscript>
+
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/pages.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <header class="site-header">
+    <div class="wrap site-header__inner">
+      <a class="brand" href="index.html">
+        <img src="assets/icons/icon-192.png" alt="" width="38" height="38">
+        <span>Toy Haven</span>
+      </a>
+
+      <nav class="nav" id="primary-nav" aria-label="Main navigation">
+        <ul class="nav__list">
+          <li><a class="nav__link" href="index.html">Home</a></li>
+          <li><a class="nav__link" href="products.html">Products</a></li>
+          <li><a class="nav__link" href="cart.html">Cart <span class="nav-count" data-cart-count>0</span></a></li>
+          <li><a class="nav__link" href="wishlist.html">Wishlist <span class="nav-count" data-wishlist-count>0</span></a></li>
+          <li><a class="nav__link" href="support.html" aria-current="page">Support</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-actions">
+        <button type="button" class="icon-btn" data-theme-toggle aria-pressed="false" aria-label="Switch to dark theme">
+          <span class="theme-icon" aria-hidden="true">&#9790;</span>
+        </button>
+        <button type="button" class="hamburger" aria-expanded="false" aria-controls="primary-nav" aria-label="Toggle navigation menu">
+          <span class="hamburger__box">
+            <span class="hamburger__bar"></span>
+            <span class="hamburger__bar"></span>
+            <span class="hamburger__bar"></span>
+          </span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="page-head">
+      <div class="wrap">
+        <nav aria-label="Breadcrumb">
+          <ol class="breadcrumb">
+            <li><a href="index.html">Home</a></li>
+            <li aria-current="page">Feedback &amp; Support</li>
+          </ol>
+        </nav>
+        <h1>Feedback &amp; support</h1>
+        <p class="lead mb-0">Tell us what worked and what did not. Messages sent from this demonstration site are stored in your own browser so you can see exactly what was captured.</p>
+      </div>
+    </section>
+
+    <section class="section wrap" aria-labelledby="contact-title">
+      <div class="support-layout">
+        <div>
+          <h2 id="contact-title">Send us a message</h2>
+          <form class="card" id="feedback-form" novalidate>
+            <div class="field">
+              <label for="name">Your name</label>
+              <input class="input" type="text" id="name" name="name" autocomplete="name" placeholder="Alex Fernando">
+              <span class="error-text" role="alert"></span>
+            </div>
+
+            <div class="field">
+              <label for="feedback-email">Email address</label>
+              <input class="input" type="email" id="feedback-email" name="email" autocomplete="email" placeholder="you@example.com">
+              <span class="error-text" role="alert"></span>
+            </div>
+
+            <div class="field">
+              <label for="topic">What is it about?</label>
+              <select class="select" id="topic" name="topic">
+                <option value="">Choose a topic</option>
+                <option value="order">An order</option>
+                <option value="product">A product question</option>
+                <option value="website">The website itself</option>
+                <option value="other">Something else</option>
+              </select>
+              <span class="error-text" role="alert"></span>
+            </div>
+
+            <div class="field">
+              <label for="message">Message</label>
+              <span class="hint" id="message-hint">Between 10 and 600 characters.</span>
+              <textarea class="textarea" id="message" name="message" aria-describedby="message-hint" placeholder="Tell us what happened"></textarea>
+              <span class="error-text" role="alert"></span>
+            </div>
+
+            <button class="btn btn--block" type="submit">Send message</button>
+          </form>
+
+          <div data-feedback-success hidden></div>
+
+          <div class="feedback-log" data-feedback-log></div>
+        </div>
+
+        <section class="card" aria-labelledby="reach-title">
+          <h2 id="reach-title">Other ways to reach us</h2>
+          <ul class="contact-list">
+            <li><span aria-hidden="true">&#9993;</span><span><strong>Email</strong>hello@toyhaven.example</span></li>
+            <li><span aria-hidden="true">&#9742;</span><span><strong>Phone</strong>+94 11 234 5678</span></li>
+            <li><span aria-hidden="true">&#9873;</span><span><strong>Collection point</strong>18 Marine Drive, Colombo 03</span></li>
+          </ul>
+
+          <h3>Opening hours</h3>
+          <div class="table-scroll">
+            <table class="table">
+              <caption>Support desk opening hours</caption>
+              <thead>
+                <tr><th scope="col">Day</th><th scope="col">Hours</th></tr>
+              </thead>
+              <tbody>
+                <tr><th scope="row">Monday to Friday</th><td>09:00 &ndash; 18:00</td></tr>
+                <tr><th scope="row">Saturday</th><td>10:00 &ndash; 16:00</td></tr>
+                <tr><th scope="row">Sunday</th><td>Closed</td></tr>
+                <tr><th scope="row">Public holidays</th><td>Email only</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </section>
+      </div>
+    </section>
+
+    <section class="section wrap" id="faq" aria-labelledby="faq-title">
+      <div class="section-head reveal">
+        <div>
+          <span class="eyebrow">Answers first</span>
+          <h2 id="faq-title">Frequently asked questions</h2>
+          <p>Six questions the support desk is asked most often.</p>
+        </div>
+      </div>
+
+      <div class="accordion" data-accordion>
+        <div class="accordion__item">
+          <h3>
+            <button type="button" class="accordion__trigger" id="faq-1-trigger" aria-expanded="false" aria-controls="faq-1-panel">
+              How long does delivery take?
+              <span class="accordion__icon" aria-hidden="true">+</span>
+            </button>
+          </h3>
+          <div class="accordion__panel" id="faq-1-panel" role="region" aria-labelledby="faq-1-trigger" hidden>
+            <p>Orders placed before 2pm are dispatched the same working day. Standard delivery arrives in two to four working days; express arrives the next working day.</p>
+          </div>
+        </div>
+
+        <div class="accordion__item">
+          <h3>
+            <button type="button" class="accordion__trigger" id="faq-2-trigger" aria-expanded="false" aria-controls="faq-2-panel">
+              Is delivery really free over &pound;60?
+              <span class="accordion__icon" aria-hidden="true">+</span>
+            </button>
+          </h3>
+          <div class="accordion__panel" id="faq-2-panel" role="region" aria-labelledby="faq-2-trigger" hidden>
+            <p>Yes. Baskets of &pound;60 or more ship free; below that a flat &pound;4.95 is added. The basket recalculates the moment you change a quantity.</p>
+          </div>
+        </div>
+
+        <div class="accordion__item">
+          <h3>
+            <button type="button" class="accordion__trigger" id="faq-3-trigger" aria-expanded="false" aria-controls="faq-3-panel">
+              Are the figurines suitable for children?
+              <span class="accordion__icon" aria-hidden="true">+</span>
+            </button>
+          </h3>
+          <div class="accordion__panel" id="faq-3-panel" role="region" aria-labelledby="faq-3-trigger" hidden>
+            <p>Most collectible figurines carry a 12+ or 14+ guidance because of small parts and painted detail. Every product page lists its age guidance in the specification table.</p>
+          </div>
+        </div>
+
+        <div class="accordion__item">
+          <h3>
+            <button type="button" class="accordion__trigger" id="faq-4-trigger" aria-expanded="false" aria-controls="faq-4-panel">
+              Where is my basket stored?
+              <span class="accordion__icon" aria-hidden="true">+</span>
+            </button>
+          </h3>
+          <div class="accordion__panel" id="faq-4-panel" role="region" aria-labelledby="faq-4-trigger" hidden>
+            <p>In your browser&rsquo;s localStorage, on this device. Nothing is uploaded, and clearing your browser data will empty the basket, wishlist and order history.</p>
+          </div>
+        </div>
+
+        <div class="accordion__item">
+          <h3>
+            <button type="button" class="accordion__trigger" id="faq-5-trigger" aria-expanded="false" aria-controls="faq-5-panel">
+              Can I install Toy Haven as an app?
+              <span class="accordion__icon" aria-hidden="true">+</span>
+            </button>
+          </h3>
+          <div class="accordion__panel" id="faq-5-panel" role="region" aria-labelledby="faq-5-trigger" hidden>
+            <p>Yes. Toy Haven is a progressive web app: choose &ldquo;Install&rdquo; or &ldquo;Add to Home Screen&rdquo; in your browser menu, and previously visited pages will still open without a connection.</p>
+          </div>
+        </div>
+
+        <div class="accordion__item">
+          <h3>
+            <button type="button" class="accordion__trigger" id="faq-6-trigger" aria-expanded="false" aria-controls="faq-6-panel">
+              What happens when I place an order?
+              <span class="accordion__icon" aria-hidden="true">+</span>
+            </button>
+          </h3>
+          <div class="accordion__panel" id="faq-6-panel" role="region" aria-labelledby="faq-6-trigger" hidden>
+            <p>Nothing is charged. The order is validated, given a reference, saved to your local order history and the basket is emptied &mdash; exactly the flow a live store would follow.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <div class="footer-grid">
+        <div>
+          <h2>Toy Haven</h2>
+          <p class="muted">A calm, colourful place to find collectible figurines, board games, toys and diecast model cars — built for collectors, hobbyists and gift shoppers alike.</p>
+        </div>
+
+        <div>
+          <h3>Shop</h3>
+          <ul class="footer-list">
+            <li><a href="products.html?category=figurines">Figurines</a></li>
+            <li><a href="products.html?category=toys">Toys</a></li>
+            <li><a href="products.html?category=board-games">Board Games</a></li>
+            <li><a href="products.html?category=diecast">Diecast Cars</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h3>Help</h3>
+          <ul class="footer-list">
+            <li><a href="support.html">Feedback &amp; Support</a></li>
+            <li><a href="support.html#faq">Delivery FAQ</a></li>
+            <li><a href="cart.html">Your basket</a></li>
+            <li><a href="wishlist.html">Your collection</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h3>Newsletter</h3>
+          <p class="muted"><small>One email a month: new arrivals, restocks and collector guides. Your address is stored on this device only.</small></p>
+          <form class="newsletter" data-newsletter-form novalidate>
+            <div class="field">
+              <label for="newsletter-email">Email address</label>
+              <input class="input" type="email" id="newsletter-email" name="email" autocomplete="email" placeholder="you@example.com">
+              <span class="error-text" id="newsletter-email-error" role="alert"></span>
+            </div>
+            <button class="btn" type="submit">Subscribe</button>
+          </form>
+          <p class="muted" data-newsletter-note role="status"><small></small></p>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p class="mb-0"><small>&copy; <span data-year>2026</span> Toy Haven. Student coursework project — no real transactions take place.</small></p>
+        <p class="mb-0"><small>Built with HTML, CSS and JavaScript. Hosted on GitHub Pages.</small></p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/data.js"></script>
+  <script src="js/app.js"></script>
+  <script src="js/support.js"></script>
+</body>
+</html>

@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js" data-page="home">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Toy Haven | Figurines, Toys, Board Games and Diecast Cars</title>
+  <meta name="description" content="Toy Haven is an interactive toy shop for collectible figurines, toys, board games and diecast model cars, with a live basket, wishlist and simulated checkout.">
+  <meta name="author" content="Toy Haven">
+  <meta name="theme-color" content="#5b2bd9">
+  <link rel="canonical" href="https://nihmathullahmazhar.github.io/toy-haven/">
+
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Toy Haven">
+  <meta property="og:title" content="Toy Haven | Figurines, Toys, Board Games and Diecast Cars">
+  <meta property="og:description" content="Toy Haven is an interactive toy shop for collectible figurines, toys, board games and diecast model cars, with a live basket, wishlist and simulated checkout.">
+  <meta property="og:url" content="https://nihmathullahmazhar.github.io/toy-haven/">
+  <meta property="og:image" content="https://nihmathullahmazhar.github.io/toy-haven/assets/img/og-image.png">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <link rel="icon" href="assets/icons/favicon.ico" sizes="any">
+  <link rel="icon" type="image/png" href="assets/icons/icon-32.png" sizes="32x32">
+  <link rel="apple-touch-icon" href="assets/icons/icon-180.png">
+  <link rel="manifest" href="manifest.webmanifest">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <!-- Fonts are loaded without blocking the first paint; the fallback stack
+       in base.css is used until they arrive. -->
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600&amp;family=Plus+Jakarta+Sans:wght@400;500;600;700&amp;display=swap" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600&amp;family=Plus+Jakarta+Sans:wght@400;500;600;700&amp;display=swap">
+  </noscript>
+
+  <link rel="preload" as="image" href="assets/img/banners/banner-figurines-800.webp" imagesrcset="assets/img/banners/banner-figurines-800.webp 800w, assets/img/banners/banner-figurines.webp 1280w" imagesizes="100vw">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/pages.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <header class="site-header">
+    <div class="wrap site-header__inner">
+      <a class="brand" href="index.html">
+        <img src="assets/icons/icon-192.png" alt="" width="38" height="38">
+        <span>Toy Haven</span>
+      </a>
+
+      <nav class="nav" id="primary-nav" aria-label="Main navigation">
+        <ul class="nav__list">
+          <li><a class="nav__link" href="index.html" aria-current="page">Home</a></li>
+          <li><a class="nav__link" href="products.html">Products</a></li>
+          <li><a class="nav__link" href="cart.html">Cart <span class="nav-count" data-cart-count>0</span></a></li>
+          <li><a class="nav__link" href="wishlist.html">Wishlist <span class="nav-count" data-wishlist-count>0</span></a></li>
+          <li><a class="nav__link" href="support.html">Support</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-actions">
+        <button type="button" class="icon-btn" data-theme-toggle aria-pressed="false" aria-label="Switch to dark theme">
+          <span class="theme-icon" aria-hidden="true">&#9790;</span>
+        </button>
+        <button type="button" class="hamburger" aria-expanded="false" aria-controls="primary-nav" aria-label="Toggle navigation menu">
+          <span class="hamburger__box">
+            <span class="hamburger__bar"></span>
+            <span class="hamburger__bar"></span>
+            <span class="hamburger__bar"></span>
+          </span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- ============ Hero carousel ============ -->
+    <section class="hero" aria-roledescription="carousel" aria-label="Toy Haven promotions" data-carousel>
+      <div class="hero__slides" data-carousel-track>
+
+        <div class="hero__slide is-active" role="group" aria-roledescription="slide" aria-label="1 of 4: New figurine drop">
+          <img class="hero__bg" src="assets/img/banners/banner-figurines.webp" srcset="assets/img/banners/banner-figurines-800.webp 800w, assets/img/banners/banner-figurines.webp 1280w" sizes="100vw" alt="" width="1280" height="720" fetchpriority="high" decoding="async">
+          <div class="hero__content">
+            <div class="hero__panel">
+              <span class="eyebrow">New figurine drop</span>
+              <h1 class="hero__title">Play, collect, repeat.</h1>
+              <p class="hero__text">Hand-finished collectible figurines from Orbit Forge and Tidewell Studio, photographed, catalogued and ready to display.</p>
+              <p class="mb-0"><a class="btn" href="products.html?category=figurines">Shop Now</a> <a class="btn btn--ghost" href="products.html">Browse everything</a></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero__slide" role="group" aria-roledescription="slide" aria-label="2 of 4: Toys for every age" aria-hidden="true">
+          <img class="hero__bg" src="assets/img/banners/banner-toys.webp" srcset="assets/img/banners/banner-toys-800.webp 800w, assets/img/banners/banner-toys.webp 1280w" sizes="100vw" alt="" width="1280" height="720" loading="lazy">
+          <div class="hero__content">
+            <div class="hero__panel">
+              <span class="eyebrow">Toys for every age</span>
+              <h2 class="hero__title">Built to be played with.</h2>
+              <p class="hero__text">Wooden stackers, recycled-plastic rockets and organic cotton plush — chosen for the shelf life of the play, not the packaging.</p>
+              <p class="mb-0"><a class="btn" href="products.html?category=toys">Shop Now</a></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero__slide" role="group" aria-roledescription="slide" aria-label="3 of 4: Board game night" aria-hidden="true">
+          <img class="hero__bg" src="assets/img/banners/banner-boardgames.webp" srcset="assets/img/banners/banner-boardgames-800.webp 800w, assets/img/banners/banner-boardgames.webp 1280w" sizes="100vw" alt="" width="1280" height="720" loading="lazy">
+          <div class="hero__content">
+            <div class="hero__panel">
+              <span class="eyebrow">Board game night</span>
+              <h2 class="hero__title">Forty minutes, four players.</h2>
+              <p class="hero__text">Route builders, co-operative dungeon crawls and gentle drafting games — each one tested at the table before it reaches the shelf.</p>
+              <p class="mb-0"><a class="btn" href="products.html?category=board-games">Shop Now</a></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero__slide" role="group" aria-roledescription="slide" aria-label="4 of 4: Diecast model cars" aria-hidden="true">
+          <img class="hero__bg" src="assets/img/banners/banner-diecast.webp" srcset="assets/img/banners/banner-diecast-800.webp 800w, assets/img/banners/banner-diecast.webp 1280w" sizes="100vw" alt="" width="1280" height="720" loading="lazy">
+          <div class="hero__content">
+            <div class="hero__panel">
+              <span class="eyebrow">Diecast in 1:24</span>
+              <h2 class="hero__title">Chrome, cast and detailed.</h2>
+              <p class="hero__text">Zinc-alloy grand tourers, rally homologation specials and heritage roadsters with opening panels and wired engine bays.</p>
+              <p class="mb-0"><a class="btn" href="products.html?category=diecast">Shop Now</a></p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="hero__controls">
+        <button type="button" class="hero__arrow" data-carousel-prev aria-label="Previous slide">&#8249;</button>
+        <ul class="hero__dots" data-carousel-dots>
+          <li><button type="button" class="hero__dot" data-slide-to="0" aria-current="true"><span class="visually-hidden">Show slide 1: New figurine drop</span></button></li>
+          <li><button type="button" class="hero__dot" data-slide-to="1"><span class="visually-hidden">Show slide 2: Toys for every age</span></button></li>
+          <li><button type="button" class="hero__dot" data-slide-to="2"><span class="visually-hidden">Show slide 3: Board game night</span></button></li>
+          <li><button type="button" class="hero__dot" data-slide-to="3"><span class="visually-hidden">Show slide 4: Diecast model cars</span></button></li>
+        </ul>
+        <button type="button" class="hero__arrow" data-carousel-next aria-label="Next slide">&#8250;</button>
+      </div>
+    </section>
+
+    <!-- ============ Categories ============ -->
+    <section class="section wrap" aria-labelledby="categories-title">
+      <div class="section-head reveal">
+        <div>
+          <span class="eyebrow">Four shelves</span>
+          <h2 id="categories-title">Start with a category</h2>
+          <p>Twenty-four products, four collections, one basket. Every card opens a full specification before you commit.</p>
+        </div>
+        <a class="btn btn--ghost" href="products.html">View all products</a>
+      </div>
+
+      <div class="category-grid">
+        <a class="category-card reveal" href="products.html?category=figurines">
+          <h3>Figurines</h3>
+          <p>Hand-painted display pieces in 1:10 and 1:12 scale.</p>
+        </a>
+        <a class="category-card reveal" href="products.html?category=toys">
+          <h3>Toys</h3>
+          <p>Wood, recycled plastic and organic cotton plush.</p>
+        </a>
+        <a class="category-card reveal" href="products.html?category=board-games">
+          <h3>Board Games</h3>
+          <p>Table-tested games for two to six players.</p>
+        </a>
+        <a class="category-card reveal" href="products.html?category=diecast">
+          <h3>Diecast Cars</h3>
+          <p>Zinc-alloy models with opening panels and detail.</p>
+        </a>
+      </div>
+    </section>
+
+    <!-- ============ Featured Product of the Day (rendered by js/home.js) ============ -->
+    <section class="section section--tight wrap" aria-labelledby="daily-title">
+      <div class="section-head reveal">
+        <div>
+          <span class="eyebrow">Changes every midnight</span>
+          <h2 id="daily-title">Featured Product of the Day</h2>
+          <p>One product is spotlighted each calendar day. Today&rsquo;s pick is chosen automatically from the catalogue.</p>
+        </div>
+      </div>
+      <div class="feature-daily reveal" data-product-of-the-day>
+        <div class="loader" role="status"><span class="visually-hidden">Loading today&rsquo;s featured product</span></div>
+      </div>
+    </section>
+
+    <!-- ============ Featured highlights ============ -->
+    <section class="section wrap" aria-labelledby="highlights-title">
+      <div class="section-head reveal">
+        <div>
+          <span class="eyebrow">Collector favourites</span>
+          <h2 id="highlights-title">Featured product highlights</h2>
+          <p>The four highest-rated items in the shop right now, straight from the product data.</p>
+        </div>
+        <a class="btn btn--ghost" href="products.html">See the full range</a>
+      </div>
+      <div class="grid grid--cards" data-featured-grid></div>
+    </section>
+
+    <!-- ============ Why Toy Haven ============ -->
+    <section class="section wrap" aria-labelledby="why-title">
+      <div class="section-head reveal">
+        <div>
+          <span class="eyebrow">Why shop here</span>
+          <h2 id="why-title">Browsing should feel calm</h2>
+          <p>Toy Haven keeps the shelf tidy so the products can do the talking.</p>
+        </div>
+      </div>
+
+      <div class="value-grid">
+        <div class="value-card reveal">
+          <span class="value-card__icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M3 7h13v10H3z"/><path d="M16 10h3l2 3v4h-5z"/><circle cx="7" cy="18" r="2"/><circle cx="17.5" cy="18" r="2"/></svg></span>
+          <h3>Free delivery over &pound;60</h3>
+          <p>Flat &pound;4.95 shipping under that, calculated live in your basket.</p>
+        </div>
+        <div class="value-card reveal">
+          <span class="value-card__icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 3l7 3v6c0 4.3-2.9 7.6-7 9-4.1-1.4-7-4.7-7-9V6z"/><path d="M9 12l2 2 4-4"/></svg></span>
+          <h3>Everything stays local</h3>
+          <p>Your basket, wishlist and orders live in this browser only.</p>
+        </div>
+        <div class="value-card reveal">
+          <span class="value-card__icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 5h16v12H4z"/><path d="M8 21h8"/><path d="M12 17v4"/></svg></span>
+          <h3>Works offline</h3>
+          <p>Install Toy Haven to your home screen and keep browsing without a signal.</p>
+        </div>
+        <div class="value-card reveal">
+          <span class="value-card__icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 4v16"/><path d="M6 8h12"/><path d="M7 20h10"/></svg></span>
+          <h3>Real specifications</h3>
+          <p>Scale, material and age guidance on every product, not just a price.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ How it works ============ -->
+    <section class="section wrap" aria-labelledby="how-title">
+      <div class="grid grid--halves">
+        <div class="reveal">
+          <span class="eyebrow">Four steps</span>
+          <h2 id="how-title">How Toy Haven works</h2>
+          <p>The shop is a front-end demonstration, so nothing is charged and no data leaves your device. The flow still mirrors a real store from end to end.</p>
+          <ol>
+            <li><strong>Browse or search</strong> the catalogue and filter it down to one of four categories.</li>
+            <li><strong>Save what you like</strong> to your wishlist and mark it Interested, Owned or Not interested.</li>
+            <li><strong>Add to your basket</strong> and adjust quantities; totals recalculate as you go.</li>
+            <li><strong>Check out</strong> with a validated form and keep the order in your local history.</li>
+          </ol>
+          <p class="mb-0"><a class="btn" href="products.html">Shop Now</a></p>
+        </div>
+
+        <div class="card reveal">
+          <h3>Shop at a glance</h3>
+          <div class="stats">
+            <div class="stat">
+              <p class="stat__value" data-stat="products">24</p>
+              <p class="stat__label">Products</p>
+            </div>
+            <div class="stat">
+              <p class="stat__value" data-stat="categories">4</p>
+              <p class="stat__label">Categories</p>
+            </div>
+            <div class="stat">
+              <p class="stat__value" data-stat="rating">4.6</p>
+              <p class="stat__label">Average rating</p>
+            </div>
+            <div class="stat">
+              <p class="stat__value" data-stat="reviews">0</p>
+              <p class="stat__label">Reviews</p>
+            </div>
+          </div>
+          <p class="muted mt-5 mb-0"><small>Figures are calculated from the live product data when the page loads.</small></p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <div class="footer-grid">
+        <div>
+          <h2>Toy Haven</h2>
+          <p class="muted">A calm, colourful place to find collectible figurines, board games, toys and diecast model cars — built for collectors, hobbyists and gift shoppers alike.</p>
+        </div>
+
+        <div>
+          <h3>Shop</h3>
+          <ul class="footer-list">
+            <li><a href="products.html?category=figurines">Figurines</a></li>
+            <li><a href="products.html?category=toys">Toys</a></li>
+            <li><a href="products.html?category=board-games">Board Games</a></li>
+            <li><a href="products.html?category=diecast">Diecast Cars</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h3>Help</h3>
+          <ul class="footer-list">
+            <li><a href="support.html">Feedback &amp; Support</a></li>
+            <li><a href="support.html#faq">Delivery FAQ</a></li>
+            <li><a href="cart.html">Your basket</a></li>
+            <li><a href="wishlist.html">Your collection</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h3>Newsletter</h3>
+          <p class="muted"><small>One email a month: new arrivals, restocks and collector guides. Your address is stored on this device only.</small></p>
+          <form class="newsletter" data-newsletter-form novalidate>
+            <div class="field">
+              <label for="newsletter-email">Email address</label>
+              <input class="input" type="email" id="newsletter-email" name="email" autocomplete="email" placeholder="you@example.com">
+              <span class="error-text" id="newsletter-email-error" role="alert"></span>
+            </div>
+            <button class="btn" type="submit">Subscribe</button>
+          </form>
+          <p class="muted" data-newsletter-note role="status"><small></small></p>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p class="mb-0"><small>&copy; <span data-year>2026</span> Toy Haven. Student coursework project — no real transactions take place.</small></p>
+        <p class="mb-0"><small>Built with HTML, CSS and JavaScript. Hosted on GitHub Pages.</small></p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/data.js"></script>
+  <script src="js/app.js"></script>
+  <script src="js/components.js"></script>
+  <script src="js/home.js"></script>
+</body>
+</html>

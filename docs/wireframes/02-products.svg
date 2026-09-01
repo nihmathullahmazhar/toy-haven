@@ -1,0 +1,65 @@
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1200 936' width='1200' height='936' role='img' aria-label='2. Product listing page wireframe'>
+<rect width='1200' height='936' fill='#ffffff'/>
+<text x='30' y='34' font-family='Helvetica, Arial, sans-serif' font-size='19' font-weight='700' fill='#5b2bd9' text-anchor='start'>2. Product listing page</text>
+<text x='30' y='56' font-family='Helvetica, Arial, sans-serif' font-size='12' font-weight='400' fill='#56545f' text-anchor='start'>Search, category filters, sort and a responsive card grid that opens a detail modal.</text>
+<rect x='40' y='80' width='320' height='758' rx='14' fill='#f7f6fb' stroke='#5b2bd9' stroke-width='1.2'/><text x='40' y='70' font-family='Helvetica, Arial, sans-serif' font-size='12' font-weight='700' fill='#5b2bd9' text-anchor='start'>Mobile — 375px (designed first)</text>
+<rect x='430' y='80' width='740' height='816' rx='14' fill='#f7f6fb' stroke='#5b2bd9' stroke-width='1.2'/><text x='430' y='70' font-family='Helvetica, Arial, sans-serif' font-size='12' font-weight='700' fill='#5b2bd9' text-anchor='start'>Desktop — 1180px</text>
+<rect x='40' y='80' width='320' height='40' rx='6' fill='#ffffff' stroke='#9a97a8' stroke-width='1.2'/><rect x='48' y='88' width='24' height='24' rx='6' fill='#ded8f7' stroke='#9a97a8' stroke-width='1.2'/><rect x='78' y='92' width='70' height='16' rx='6' fill='#ffffff' stroke='none' stroke-width='1.2'/>
+<text x='88' y='103' font-family='Helvetica, Arial, sans-serif' font-size='9' font-weight='400' fill='#3b3947' text-anchor='start'>Toy Haven</text><rect x='292' y='88' width='26' height='24' rx='6' fill='#f2f0f7' stroke='#9a97a8' stroke-width='1.2'/>
+<text x='305' y='103.333' font-family='Helvetica, Arial, sans-serif' font-size='10' font-weight='400' fill='#3b3947' text-anchor='middle'>☾</text><rect x='324' y='88' width='26' height='24' rx='6' fill='#f2f0f7' stroke='#9a97a8' stroke-width='1.2'/>
+<text x='337' y='103.333' font-family='Helvetica, Arial, sans-serif' font-size='10' font-weight='400' fill='#3b3947' text-anchor='middle'>≡</text>
+<rect x='430' y='80' width='740' height='46' rx='6' fill='#ffffff' stroke='#9a97a8' stroke-width='1.2'/><rect x='442' y='91' width='24' height='24' rx='6' fill='#ded8f7' stroke='#9a97a8' stroke-width='1.2'/><rect x='472' y='95' width='80' height='16' rx='6' fill='#ffffff' stroke='none' stroke-width='1.2'/>
+<text x='512' y='106.333' font-family='Helvetica, Arial, sans-serif' font-size='10' font-weight='400' fill='#3b3947' text-anchor='middle'>Toy Haven</text><rect x='650' y='93' width='300' height='20' rx='6' fill='#ffffff' stroke='none' stroke-width='1.2'/>
+<text x='800' y='106.333' font-family='Helvetica, Arial, sans-serif' font-size='10' font-weight='400' fill='#3b3947' text-anchor='middle'>Home · Products · Cart · Wishlist · Support</text><rect x='1124' y='91' width='34' height='24' rx='6' fill='#f2f0f7' stroke='#9a97a8' stroke-width='1.2'/>
+<text x='1141' y='106.333' font-family='Helvetica, Arial, sans-serif' font-size='10' font-weight='400' fill='#3b3947' text-anchor='middle'>☾</text>
+<rect x='50' y='130' width='300' height='56' rx='6' fill='#ffffff' stroke='#9a97a8' stroke-width='1.2'/>
+<text x='200' y='161.333' font-family='Helvetica, Arial, sans-serif' font-size='10' font-weight='400' fill='#3b3947' text-anchor='middle'>Page head + breadcrumb</text>
+<rect x='50' y='194' width='300' height='110' rx='6' fill='#eeecf5' stroke='#9a97a8' stroke-width='1.2'/>
+<text x='200' y='245.833' font-family='Helvetica, Arial, sans-serif' font-size='10' font-weight='400' fill='#3b3947' text-anchor='middle'>Toolbar: search, sort,</text>
+<text x='200' y='258.833' font-family='Helvetica, Arial, sans-serif' font-size='10' font-weight='400' fill='#3b3947' text-anchor='middle'>category filter chips</text>
+<rect x='50' y='312' width='300' height='30' rx='6' fill='#ffffff' stroke='#9a97a8' stroke-width='1.2'/>
+<text x='200' y='330.333' font-family='Helvetica, Arial, sans-serif' font-size='10' font-weight='400' fill='#3b3947' text-anchor='middle'>Results count + reset</text>
+<rect x='50' y='350' width='300' height='150' rx='6' fill='#ffffff' stroke='#9a97a8' stroke-width='1.2'/>
+<text x='200' y='428.333' font-family='Helvetica, Arial, sans-serif' font-size='10' font-weight='400' fill='#3b3947' text-anchor='middle'>Product card</text>
+<rect x='50' y='508' width='300' height='150' rx='6' fill='#ffffff' stroke='#9a97a8' stroke-width='1.2'/>
+<text x='200' y='586.333' font-family='Helvetica, Arial, sans-serif' font-size='10' font-weight='400' fill='#3b3947' text-anchor='middle'>Product card</text>
+<rect x='50' y='666' width='300' height='40' rx='6' fill='#ffffff' stroke='#9a97a8' stroke-width='1.2'/>
+<text x='200' y='689.333' font-family='Helvetica, Arial, sans-serif' font-size='10' font-weight='400' fill='#3b3947' text-anchor='middle'>… 24 cards in total</text>
+<rect x='40' y='728' width='320' height='110' rx='6' fill='#f2f0f7' stroke='#9a97a8' stroke-width='1.2'/><rect x='50' y='738' width='300' height='20' rx='6' fill='#ffffff' stroke='#9a97a8' stroke-width='1.2'/>
+<text x='200' y='751' font-family='Helvetica, Arial, sans-serif' font-size='9' font-weight='400' fill='#3b3947' text-anchor='middle'>Brand + blurb</text><rect x='50' y='762' width='145' height='20' rx='6' fill='#ffffff' stroke='#9a97a8' stroke-width='1.2'/>
+<text x='122.5' y='775' font-family='Helvetica, Arial, sans-serif' font-size='9' font-weight='400' fill='#3b3947' text-anchor='middle'>Shop links</text><rect x='205' y='762' width='145' height='20' rx='6' fill='#ffffff' stroke='#9a97a8' stroke-width='1.2'/>
+<text x='277.5' y='775' font-family='Helvetica, Arial, sans-serif' font-size='9' font-weight='400' fill='#3b3947' text-anchor='middle'>Help links</text><rect x='50' y='786' width='300' height='40' rx='6' fill='#ffffff' stroke='#9a97a8' stroke-width='1.2'/>
+<text x='200' y='809' font-family='Helvetica, Arial, sans-serif' font-size='9' font-weight='400' fill='#3b3947' text-anchor='middle'>Newsletter form (localStorage)</text>
+<rect x='444' y='140' width='712' height='70' rx='6' fill='#ffffff' stroke='#9a97a8' stroke-width='1.2'/>
+<text x='800' y='178.667' font-family='Helvetica, Arial, sans-serif' font-size='11' font-weight='400' fill='#3b3947' text-anchor='middle'>Page head — breadcrumb, title, intro</text>
+<rect x='444' y='220' width='712' height='86' rx='6' fill='#eeecf5' stroke='#9a97a8' stroke-width='1.2'/>
+<text x='800' y='266.667' font-family='Helvetica, Arial, sans-serif' font-size='11' font-weight='400' fill='#3b3947' text-anchor='middle'>Toolbar — search box, sort select, category filter chips (All / Figurines / Toys / Board Games / Diecast)</text>
+<rect x='444' y='316' width='712' height='34' rx='6' fill='#ffffff' stroke='#9a97a8' stroke-width='1.2'/>
+<text x='800' y='336.667' font-family='Helvetica, Arial, sans-serif' font-size='11' font-weight='400' fill='#3b3947' text-anchor='middle'>Showing X of 24 products                                                                    Reset filters</text>
+<rect x='444' y='360' width='170.5' height='170' rx='6' fill='#ffffff' stroke='#9a97a8' stroke-width='1.2'/>
+<text x='529.25' y='441.833' font-family='Helvetica, Arial, sans-serif' font-size='10' font-weight='400' fill='#3b3947' text-anchor='middle'>Product card</text>
+<text x='529.25' y='454.833' font-family='Helvetica, Arial, sans-serif' font-size='10' font-weight='400' fill='#3b3947' text-anchor='middle'>image, tag, category, rating</text>
+<rect x='624.5' y='360' width='170.5' height='170' rx='6' fill='#ffffff' stroke='#9a97a8' stroke-width='1.2'/>
+<text x='709.75' y='441.833' font-family='Helvetica, Arial, sans-serif' font-size='10' font-weight='400' fill='#3b3947' text-anchor='middle'>Product card</text>
+<text x='709.75' y='454.833' font-family='Helvetica, Arial, sans-serif' font-size='10' font-weight='400' fill='#3b3947' text-anchor='middle'>name, brand, price</text>
+<rect x='805' y='360' width='170.5' height='170' rx='6' fill='#ffffff' stroke='#9a97a8' stroke-width='1.2'/>
+<text x='890.25' y='441.833' font-family='Helvetica, Arial, sans-serif' font-size='10' font-weight='400' fill='#3b3947' text-anchor='middle'>Product card</text>
+<text x='890.25' y='454.833' font-family='Helvetica, Arial, sans-serif' font-size='10' font-weight='400' fill='#3b3947' text-anchor='middle'>Add to Cart · Details · ♥</text>
+<rect x='985.5' y='360' width='170.5' height='170' rx='6' fill='#ffffff' stroke='#9a97a8' stroke-width='1.2'/>
+<text x='1070.75' y='448.333' font-family='Helvetica, Arial, sans-serif' font-size='10' font-weight='400' fill='#3b3947' text-anchor='middle'>Product card</text>
+<rect x='444' y='540' width='170.5' height='170' rx='6' fill='#ffffff' stroke='#9a97a8' stroke-width='1.2'/>
+<text x='529.25' y='628.333' font-family='Helvetica, Arial, sans-serif' font-size='10' font-weight='400' fill='#3b3947' text-anchor='middle'>Product card</text>
+<rect x='624.5' y='540' width='170.5' height='170' rx='6' fill='#ffffff' stroke='#9a97a8' stroke-width='1.2'/>
+<text x='709.75' y='628.333' font-family='Helvetica, Arial, sans-serif' font-size='10' font-weight='400' fill='#3b3947' text-anchor='middle'>Product card</text>
+<rect x='805' y='540' width='170.5' height='170' rx='6' fill='#ffffff' stroke='#9a97a8' stroke-width='1.2'/>
+<text x='890.25' y='628.333' font-family='Helvetica, Arial, sans-serif' font-size='10' font-weight='400' fill='#3b3947' text-anchor='middle'>Product card</text>
+<rect x='985.5' y='540' width='170.5' height='170' rx='6' fill='#ffffff' stroke='#9a97a8' stroke-width='1.2'/>
+<text x='1070.75' y='628.333' font-family='Helvetica, Arial, sans-serif' font-size='10' font-weight='400' fill='#3b3947' text-anchor='middle'>Product card</text>
+<rect x='444' y='720' width='712' height='60' rx='6' fill='#eeecf5' stroke='#9a97a8' stroke-width='1.2'/>
+<text x='800' y='753.667' font-family='Helvetica, Arial, sans-serif' font-size='11' font-weight='400' fill='#3b3947' text-anchor='middle'>Modal opens over the grid: large image + specification table + Add to Cart</text>
+<rect x='430' y='804' width='740' height='92' rx='6' fill='#f2f0f7' stroke='#9a97a8' stroke-width='1.2'/><rect x='440' y='816' width='172.5' height='66' rx='6' fill='#ffffff' stroke='#9a97a8' stroke-width='1.2'/>
+<text x='526.25' y='852' font-family='Helvetica, Arial, sans-serif' font-size='9' font-weight='400' fill='#3b3947' text-anchor='middle'>Brand + blurb</text><rect x='622.5' y='816' width='172.5' height='66' rx='6' fill='#ffffff' stroke='#9a97a8' stroke-width='1.2'/>
+<text x='708.75' y='852' font-family='Helvetica, Arial, sans-serif' font-size='9' font-weight='400' fill='#3b3947' text-anchor='middle'>Shop links</text><rect x='805' y='816' width='172.5' height='66' rx='6' fill='#ffffff' stroke='#9a97a8' stroke-width='1.2'/>
+<text x='891.25' y='852' font-family='Helvetica, Arial, sans-serif' font-size='9' font-weight='400' fill='#3b3947' text-anchor='middle'>Help links</text><rect x='987.5' y='816' width='172.5' height='66' rx='6' fill='#ffffff' stroke='#9a97a8' stroke-width='1.2'/>
+<text x='1073.75' y='852' font-family='Helvetica, Arial, sans-serif' font-size='9' font-weight='400' fill='#3b3947' text-anchor='middle'>Newsletter form</text>
+</svg>

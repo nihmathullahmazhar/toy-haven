@@ -1,0 +1,52 @@
+{
+  "name": "Toy Haven — Figurines, Toys, Board Games and Diecast Cars",
+  "short_name": "Toy Haven",
+  "description": "An interactive toy shop for collectible figurines, toys, board games and diecast model cars, with a live basket, wishlist and simulated checkout.",
+  "lang": "en",
+  "dir": "ltr",
+  "start_url": "./index.html",
+  "scope": "./",
+  "id": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#faf8f5",
+  "theme_color": "#5b2bd9",
+  "categories": ["shopping", "lifestyle"],
+  "icons": [
+    {
+      "src": "assets/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "assets/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "assets/icons/maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Browse products",
+      "url": "./products.html",
+      "description": "Open the full Toy Haven product listing"
+    },
+    {
+      "name": "Your basket",
+      "url": "./cart.html",
+      "description": "Review the items in your basket"
+    },
+    {
+      "name": "Your wishlist",
+      "url": "./wishlist.html",
+      "description": "Open your saved collection"
+    }
+  ]
+}

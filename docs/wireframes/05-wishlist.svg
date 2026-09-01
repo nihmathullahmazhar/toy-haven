@@ -1,0 +1,61 @@
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1200 870' width='1200' height='870' role='img' aria-label='5. Wishlist / collection page wireframe'>
+<rect width='1200' height='870' fill='#ffffff'/>
+<text x='30' y='34' font-family='Helvetica, Arial, sans-serif' font-size='19' font-weight='700' fill='#5b2bd9' text-anchor='start'>5. Wishlist / collection page</text>
+<text x='30' y='56' font-family='Helvetica, Arial, sans-serif' font-size='12' font-weight='400' fill='#56545f' text-anchor='start'>Saved products with Interested / Owned / Not interested status controls and status filters.</text>
+<rect x='40' y='80' width='320' height='750' rx='14' fill='#f7f6fb' stroke='#5b2bd9' stroke-width='1.2'/><text x='40' y='70' font-family='Helvetica, Arial, sans-serif' font-size='12' font-weight='700' fill='#5b2bd9' text-anchor='start'>Mobile — 375px (designed first)</text>
+<rect x='430' y='80' width='740' height='686' rx='14' fill='#f7f6fb' stroke='#5b2bd9' stroke-width='1.2'/><text x='430' y='70' font-family='Helvetica, Arial, sans-serif' font-size='12' font-weight='700' fill='#5b2bd9' text-anchor='start'>Desktop — 1180px</text>
+<rect x='40' y='80' width='320' height='40' rx='6' fill='#ffffff' stroke='#9a97a8' stroke-width='1.2'/><rect x='48' y='88' width='24' height='24' rx='6' fill='#ded8f7' stroke='#9a97a8' stroke-width='1.2'/><rect x='78' y='92' width='70' height='16' rx='6' fill='#ffffff' stroke='none' stroke-width='1.2'/>
+<text x='88' y='103' font-family='Helvetica, Arial, sans-serif' font-size='9' font-weight='400' fill='#3b3947' text-anchor='start'>Toy Haven</text><rect x='292' y='88' width='26' height='24' rx='6' fill='#f2f0f7' stroke='#9a97a8' stroke-width='1.2'/>
+<text x='305' y='103.333' font-family='Helvetica, Arial, sans-serif' font-size='10' font-weight='400' fill='#3b3947' text-anchor='middle'>☾</text><rect x='324' y='88' width='26' height='24' rx='6' fill='#f2f0f7' stroke='#9a97a8' stroke-width='1.2'/>
+<text x='337' y='103.333' font-family='Helvetica, Arial, sans-serif' font-size='10' font-weight='400' fill='#3b3947' text-anchor='middle'>≡</text>
+<rect x='430' y='80' width='740' height='46' rx='6' fill='#ffffff' stroke='#9a97a8' stroke-width='1.2'/><rect x='442' y='91' width='24' height='24' rx='6' fill='#ded8f7' stroke='#9a97a8' stroke-width='1.2'/><rect x='472' y='95' width='80' height='16' rx='6' fill='#ffffff' stroke='none' stroke-width='1.2'/>
+<text x='512' y='106.333' font-family='Helvetica, Arial, sans-serif' font-size='10' font-weight='400' fill='#3b3947' text-anchor='middle'>Toy Haven</text><rect x='650' y='93' width='300' height='20' rx='6' fill='#ffffff' stroke='none' stroke-width='1.2'/>
+<text x='800' y='106.333' font-family='Helvetica, Arial, sans-serif' font-size='10' font-weight='400' fill='#3b3947' text-anchor='middle'>Home · Products · Cart · Wishlist · Support</text><rect x='1124' y='91' width='34' height='24' rx='6' fill='#f2f0f7' stroke='#9a97a8' stroke-width='1.2'/>
+<text x='1141' y='106.333' font-family='Helvetica, Arial, sans-serif' font-size='10' font-weight='400' fill='#3b3947' text-anchor='middle'>☾</text>
+<rect x='50' y='130' width='300' height='56' rx='6' fill='#ffffff' stroke='#9a97a8' stroke-width='1.2'/>
+<text x='200' y='161.333' font-family='Helvetica, Arial, sans-serif' font-size='10' font-weight='400' fill='#3b3947' text-anchor='middle'>Page head + breadcrumb</text>
+<rect x='50' y='194' width='300' height='80' rx='6' fill='#eeecf5' stroke='#9a97a8' stroke-width='1.2'/>
+<text x='200' y='230.833' font-family='Helvetica, Arial, sans-serif' font-size='10' font-weight='400' fill='#3b3947' text-anchor='middle'>Counters: saved, interested,</text>
+<text x='200' y='243.833' font-family='Helvetica, Arial, sans-serif' font-size='10' font-weight='400' fill='#3b3947' text-anchor='middle'>owned, not interested</text>
+<rect x='50' y='282' width='300' height='40' rx='6' fill='#ffffff' stroke='#9a97a8' stroke-width='1.2'/>
+<text x='200' y='305.333' font-family='Helvetica, Arial, sans-serif' font-size='10' font-weight='400' fill='#3b3947' text-anchor='middle'>Status filter chips</text>
+<rect x='50' y='330' width='300' height='180' rx='6' fill='#ffffff' stroke='#9a97a8' stroke-width='1.2'/>
+<text x='200' y='410.333' font-family='Helvetica, Arial, sans-serif' font-size='10' font-weight='400' fill='#3b3947' text-anchor='middle'>Saved product card</text>
+<text x='200' y='423.333' font-family='Helvetica, Arial, sans-serif' font-size='10' font-weight='400' fill='#3b3947' text-anchor='middle'>+ status buttons</text>
+<text x='200' y='436.333' font-family='Helvetica, Arial, sans-serif' font-size='10' font-weight='400' fill='#3b3947' text-anchor='middle'>+ saved date</text>
+<rect x='50' y='518' width='300' height='180' rx='6' fill='#ffffff' stroke='#9a97a8' stroke-width='1.2'/>
+<text x='200' y='611.333' font-family='Helvetica, Arial, sans-serif' font-size='10' font-weight='400' fill='#3b3947' text-anchor='middle'>Saved product card</text>
+<rect x='40' y='720' width='320' height='110' rx='6' fill='#f2f0f7' stroke='#9a97a8' stroke-width='1.2'/><rect x='50' y='730' width='300' height='20' rx='6' fill='#ffffff' stroke='#9a97a8' stroke-width='1.2'/>
+<text x='200' y='743' font-family='Helvetica, Arial, sans-serif' font-size='9' font-weight='400' fill='#3b3947' text-anchor='middle'>Brand + blurb</text><rect x='50' y='754' width='145' height='20' rx='6' fill='#ffffff' stroke='#9a97a8' stroke-width='1.2'/>
+<text x='122.5' y='767' font-family='Helvetica, Arial, sans-serif' font-size='9' font-weight='400' fill='#3b3947' text-anchor='middle'>Shop links</text><rect x='205' y='754' width='145' height='20' rx='6' fill='#ffffff' stroke='#9a97a8' stroke-width='1.2'/>
+<text x='277.5' y='767' font-family='Helvetica, Arial, sans-serif' font-size='9' font-weight='400' fill='#3b3947' text-anchor='middle'>Help links</text><rect x='50' y='778' width='300' height='40' rx='6' fill='#ffffff' stroke='#9a97a8' stroke-width='1.2'/>
+<text x='200' y='801' font-family='Helvetica, Arial, sans-serif' font-size='9' font-weight='400' fill='#3b3947' text-anchor='middle'>Newsletter form (localStorage)</text>
+<rect x='444' y='140' width='712' height='70' rx='6' fill='#ffffff' stroke='#9a97a8' stroke-width='1.2'/>
+<text x='800' y='178.667' font-family='Helvetica, Arial, sans-serif' font-size='11' font-weight='400' fill='#3b3947' text-anchor='middle'>Page head — breadcrumb, title, intro</text>
+<rect x='444' y='220' width='170.5' height='80' rx='6' fill='#eeecf5' stroke='#9a97a8' stroke-width='1.2'/>
+<text x='529.25' y='263.333' font-family='Helvetica, Arial, sans-serif' font-size='10' font-weight='400' fill='#3b3947' text-anchor='middle'>Saved</text>
+<rect x='624.5' y='220' width='170.5' height='80' rx='6' fill='#eeecf5' stroke='#9a97a8' stroke-width='1.2'/>
+<text x='709.75' y='263.333' font-family='Helvetica, Arial, sans-serif' font-size='10' font-weight='400' fill='#3b3947' text-anchor='middle'>Interested</text>
+<rect x='805' y='220' width='170.5' height='80' rx='6' fill='#eeecf5' stroke='#9a97a8' stroke-width='1.2'/>
+<text x='890.25' y='263.333' font-family='Helvetica, Arial, sans-serif' font-size='10' font-weight='400' fill='#3b3947' text-anchor='middle'>Owned</text>
+<rect x='985.5' y='220' width='170.5' height='80' rx='6' fill='#eeecf5' stroke='#9a97a8' stroke-width='1.2'/>
+<text x='1070.75' y='263.333' font-family='Helvetica, Arial, sans-serif' font-size='10' font-weight='400' fill='#3b3947' text-anchor='middle'>Not interested</text>
+<rect x='444' y='310' width='712' height='40' rx='6' fill='#ffffff' stroke='#9a97a8' stroke-width='1.2'/>
+<text x='800' y='333.667' font-family='Helvetica, Arial, sans-serif' font-size='11' font-weight='400' fill='#3b3947' text-anchor='middle'>All · Interested · Owned · Not interested                                        Clear wishlist</text>
+<rect x='444' y='360' width='170.5' height='210' rx='6' fill='#ffffff' stroke='#9a97a8' stroke-width='1.2'/>
+<text x='529.25' y='461.833' font-family='Helvetica, Arial, sans-serif' font-size='10' font-weight='400' fill='#3b3947' text-anchor='middle'>Saved card</text>
+<text x='529.25' y='474.833' font-family='Helvetica, Arial, sans-serif' font-size='10' font-weight='400' fill='#3b3947' text-anchor='middle'>Interested / Owned / Not interested</text>
+<rect x='624.5' y='360' width='170.5' height='210' rx='6' fill='#ffffff' stroke='#9a97a8' stroke-width='1.2'/>
+<text x='709.75' y='468.333' font-family='Helvetica, Arial, sans-serif' font-size='10' font-weight='400' fill='#3b3947' text-anchor='middle'>Saved card</text>
+<rect x='805' y='360' width='170.5' height='210' rx='6' fill='#ffffff' stroke='#9a97a8' stroke-width='1.2'/>
+<text x='890.25' y='468.333' font-family='Helvetica, Arial, sans-serif' font-size='10' font-weight='400' fill='#3b3947' text-anchor='middle'>Saved card</text>
+<rect x='985.5' y='360' width='170.5' height='210' rx='6' fill='#ffffff' stroke='#9a97a8' stroke-width='1.2'/>
+<text x='1070.75' y='468.333' font-family='Helvetica, Arial, sans-serif' font-size='10' font-weight='400' fill='#3b3947' text-anchor='middle'>Saved card</text>
+<rect x='444' y='580' width='712' height='70' rx='6' fill='#eeecf5' stroke='#9a97a8' stroke-width='1.2'/>
+<text x='800' y='618.667' font-family='Helvetica, Arial, sans-serif' font-size='11' font-weight='400' fill='#3b3947' text-anchor='middle'>Empty state when nothing has been saved yet</text>
+<rect x='430' y='674' width='740' height='92' rx='6' fill='#f2f0f7' stroke='#9a97a8' stroke-width='1.2'/><rect x='440' y='686' width='172.5' height='66' rx='6' fill='#ffffff' stroke='#9a97a8' stroke-width='1.2'/>
+<text x='526.25' y='722' font-family='Helvetica, Arial, sans-serif' font-size='9' font-weight='400' fill='#3b3947' text-anchor='middle'>Brand + blurb</text><rect x='622.5' y='686' width='172.5' height='66' rx='6' fill='#ffffff' stroke='#9a97a8' stroke-width='1.2'/>
+<text x='708.75' y='722' font-family='Helvetica, Arial, sans-serif' font-size='9' font-weight='400' fill='#3b3947' text-anchor='middle'>Shop links</text><rect x='805' y='686' width='172.5' height='66' rx='6' fill='#ffffff' stroke='#9a97a8' stroke-width='1.2'/>
+<text x='891.25' y='722' font-family='Helvetica, Arial, sans-serif' font-size='9' font-weight='400' fill='#3b3947' text-anchor='middle'>Help links</text><rect x='987.5' y='686' width='172.5' height='66' rx='6' fill='#ffffff' stroke='#9a97a8' stroke-width='1.2'/>
+<text x='1073.75' y='722' font-family='Helvetica, Arial, sans-serif' font-size='9' font-weight='400' fill='#3b3947' text-anchor='middle'>Newsletter form</text>
+</svg>

@@ -1,0 +1,340 @@
+/* ==========================================================================
+   Toy Haven — base.css
+   Design tokens, reset, typography, layout primitives and utilities.
+   Load order: base.css → components.css → pages.css
+   ========================================================================== */
+
+/* --------------------------------------------------------------------------
+   1. Design tokens
+   -------------------------------------------------------------------------- */
+:root {
+  /* Brand palette */
+  --brand: #5b2bd9;
+  --brand-strong: #4a1fbf;
+  --brand-soft: #f1ecfe;
+  --accent: #ff9f1c;
+  --accent-soft: #fff3e0;
+  --mint: #0f8f86;
+  --mint-soft: #e3f6f4;
+  --rose: #c2255c;
+  --rose-soft: #ffe9f1;
+
+  /* Neutrals */
+  --bg: #faf8f5;
+  --surface: #ffffff;
+  --surface-2: #f4f1fa;
+  --ink: #17161c;
+  --ink-soft: #56545f;
+  --line: #e3dfec;
+
+  /* Feedback */
+  --ok: #0b7a4b;
+  --ok-soft: #e4f6ec;
+  --danger: #b3261e;
+  --danger-soft: #fdeceb;
+
+  /* Typography */
+  --font-display: "Fredoka", "Trebuchet MS", "Segoe UI", sans-serif;
+  --font-body: "Plus Jakarta Sans", "Segoe UI", system-ui, -apple-system, Arial, sans-serif;
+  --step--1: clamp(0.82rem, 0.79rem + 0.15vw, 0.9rem);
+  --step-0: clamp(0.98rem, 0.95rem + 0.18vw, 1.06rem);
+  --step-1: clamp(1.16rem, 1.08rem + 0.4vw, 1.4rem);
+  --step-2: clamp(1.4rem, 1.24rem + 0.8vw, 1.9rem);
+  --step-3: clamp(1.75rem, 1.45rem + 1.5vw, 2.6rem);
+  --step-4: clamp(2.1rem, 1.6rem + 2.4vw, 3.4rem);
+
+  /* Space + shape */
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-5: 1.5rem;
+  --space-6: 2rem;
+  --space-7: 3rem;
+  --space-8: 4.5rem;
+  --radius-s: 8px;
+  --radius-m: 14px;
+  --radius-l: 22px;
+  --radius-pill: 999px;
+  --shadow-s: 0 1px 2px rgba(23, 22, 28, 0.06), 0 2px 8px rgba(23, 22, 28, 0.05);
+  --shadow-m: 0 6px 18px rgba(23, 22, 28, 0.08);
+  --shadow-l: 0 18px 48px rgba(23, 22, 28, 0.14);
+  --ring: 0 0 0 3px rgba(91, 43, 217, 0.35);
+
+  /* Motion */
+  --ease: cubic-bezier(0.22, 0.61, 0.36, 1);
+  --speed: 220ms;
+  --wrap: 1180px;
+}
+
+/* Dark theme — toggled by the theme button, persisted in localStorage. */
+[data-theme="dark"] {
+  --brand: #b49bff;
+  --brand-strong: #cbbcff;
+  --brand-soft: #241d3c;
+  --accent: #ffb84d;
+  --accent-soft: #33260f;
+  --mint: #5fd6c9;
+  --mint-soft: #10312e;
+  --rose: #ff8fb4;
+  --rose-soft: #3a1524;
+
+  --bg: #121118;
+  --surface: #1b1a23;
+  --surface-2: #23212e;
+  --ink: #f5f3f9;
+  --ink-soft: #bab6c6;
+  --line: #322f3f;
+
+  --ok: #6fdba2;
+  --ok-soft: #12301f;
+  --danger: #ff9a92;
+  --danger-soft: #3a1a17;
+
+  --shadow-s: 0 1px 2px rgba(0, 0, 0, 0.5);
+  --shadow-m: 0 6px 18px rgba(0, 0, 0, 0.5);
+  --shadow-l: 0 18px 48px rgba(0, 0, 0, 0.6);
+  --ring: 0 0 0 3px rgba(180, 155, 255, 0.45);
+}
+
+/* --------------------------------------------------------------------------
+   2. Reset
+   -------------------------------------------------------------------------- */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  background-color: var(--bg);
+  color: var(--ink);
+  font-family: var(--font-body);
+  font-size: var(--step-0);
+  line-height: 1.65;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+[hidden] {
+  display: none !important;
+}
+
+img,
+picture,
+svg {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+  color: inherit;
+}
+
+/* --------------------------------------------------------------------------
+   3. Typography
+   -------------------------------------------------------------------------- */
+h1,
+h2,
+h3,
+h4 {
+  font-family: var(--font-display);
+  line-height: 1.15;
+  margin: 0 0 var(--space-3);
+  letter-spacing: -0.01em;
+}
+
+h1 { font-size: var(--step-4); }
+h2 { font-size: var(--step-3); }
+h3 { font-size: var(--step-2); }
+h4 { font-size: var(--step-1); }
+
+p { margin: 0 0 var(--space-4); }
+
+a {
+  color: var(--brand);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+}
+
+a:hover { color: var(--brand-strong); }
+
+ul, ol { margin: 0 0 var(--space-4); padding-left: 1.25rem; }
+li { margin-bottom: var(--space-2); }
+
+small { font-size: var(--step--1); }
+
+:focus-visible {
+  outline: 3px solid var(--brand);
+  outline-offset: 2px;
+  border-radius: var(--radius-s);
+}
+
+/* --------------------------------------------------------------------------
+   4. Layout primitives
+   -------------------------------------------------------------------------- */
+.wrap {
+  width: min(100% - 2rem, var(--wrap));
+  margin-inline: auto;
+}
+
+.section {
+  padding-block: var(--space-7);
+}
+
+.section--tight { padding-block: var(--space-6); }
+
+.section-head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: var(--space-4);
+  margin-bottom: var(--space-5);
+}
+
+.section-head p { margin: 0; color: var(--ink-soft); max-width: 56ch; }
+
+main { flex: 1 1 auto; }
+
+.grid {
+  display: grid;
+  gap: var(--space-5);
+}
+
+.grid--cards {
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+}
+
+.grid--halves {
+  grid-template-columns: 1fr;
+}
+
+.stack > * + * { margin-top: var(--space-4); }
+
+.cluster {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-3);
+  align-items: center;
+}
+
+/* --------------------------------------------------------------------------
+   5. Utilities
+   -------------------------------------------------------------------------- */
+.eyebrow {
+  display: inline-block;
+  font-family: var(--font-display);
+  font-size: var(--step--1);
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--brand);
+  background-color: var(--brand-soft);
+  border-radius: var(--radius-pill);
+  padding: 0.25rem 0.75rem;
+  margin-bottom: var(--space-3);
+}
+
+.lead { font-size: var(--step-1); color: var(--ink-soft); max-width: 60ch; }
+.muted { color: var(--ink-soft); }
+.center { text-align: center; }
+.mx-auto { margin-inline: auto; }
+.mb-0 { margin-bottom: 0; }
+.mt-5 { margin-top: var(--space-5); }
+.full { width: 100%; }
+
+/* Visible only to screen readers. */
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  clip-path: inset(50%);
+  white-space: nowrap;
+  border: 0;
+}
+
+.skip-link {
+  position: absolute;
+  left: var(--space-4);
+  top: -100px;
+  z-index: 200;
+  background-color: var(--brand);
+  color: #ffffff;
+  padding: var(--space-3) var(--space-4);
+  border-radius: var(--radius-s);
+  text-decoration: none;
+  transition: top var(--speed) var(--ease);
+}
+
+.skip-link:focus {
+  top: var(--space-4);
+  color: #ffffff;
+}
+
+/* --------------------------------------------------------------------------
+   6. Scroll reveal (progressively enhanced by js/app.js)
+   -------------------------------------------------------------------------- */
+.reveal {
+  opacity: 0;
+  transform: translateY(22px);
+  transition: opacity 600ms var(--ease), transform 600ms var(--ease);
+}
+
+.reveal.is-visible {
+  opacity: 1;
+  transform: none;
+}
+
+.no-js .reveal {
+  opacity: 1;
+  transform: none;
+}
+
+/* --------------------------------------------------------------------------
+   7. Responsive breakpoints
+   -------------------------------------------------------------------------- */
+@media (min-width: 40em) {
+  .grid--cards { grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); }
+  .section { padding-block: var(--space-8); }
+}
+
+@media (min-width: 60em) {
+  .grid--halves { grid-template-columns: 1fr 1fr; gap: var(--space-7); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+  }
+
+  .reveal { opacity: 1; transform: none; }
+}
+
+@media print {
+  .site-header,
+  .site-footer,
+  .toast-stack { display: none; }
+  body { background-color: #ffffff; color: #000000; }
+}
