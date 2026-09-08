@@ -28,6 +28,6 @@ a{color:var(--brand)}
   h2{page-break-after:avoid}
   table{page-break-inside:auto}
   tr{page-break-inside:avoid}
-  .wire{page-break-inside:avoid}
+  .wire{page-break-inside:avoid;max-height:8.9in;width:auto;max-width:100%;object-fit:contain;display:block;margin-inline:auto}
 }
 @media (max-width:720px){.grid2{grid-template-columns:1fr}.meta dl{grid-template-columns:1fr}}

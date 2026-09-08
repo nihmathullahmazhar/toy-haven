@@ -1,65 +1,336 @@
-<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1200 936' width='1200' height='936' role='img' aria-label='2. Product listing page wireframe'>
-<rect width='1200' height='936' fill='#ffffff'/>
-<text x='30' y='34' font-family='Helvetica, Arial, sans-serif' font-size='19' font-weight='700' fill='#5b2bd9' text-anchor='start'>2. Product listing page</text>
-<text x='30' y='56' font-family='Helvetica, Arial, sans-serif' font-size='12' font-weight='400' fill='#56545f' text-anchor='start'>Search, category filters, sort and a responsive card grid that opens a detail modal.</text>
-<rect x='40' y='80' width='320' height='758' rx='14' fill='#f7f6fb' stroke='#5b2bd9' stroke-width='1.2'/><text x='40' y='70' font-family='Helvetica, Arial, sans-serif' font-size='12' font-weight='700' fill='#5b2bd9' text-anchor='start'>Mobile — 375px (designed first)</text>
-<rect x='430' y='80' width='740' height='816' rx='14' fill='#f7f6fb' stroke='#5b2bd9' stroke-width='1.2'/><text x='430' y='70' font-family='Helvetica, Arial, sans-serif' font-size='12' font-weight='700' fill='#5b2bd9' text-anchor='start'>Desktop — 1180px</text>
-<rect x='40' y='80' width='320' height='40' rx='6' fill='#ffffff' stroke='#9a97a8' stroke-width='1.2'/><rect x='48' y='88' width='24' height='24' rx='6' fill='#ded8f7' stroke='#9a97a8' stroke-width='1.2'/><rect x='78' y='92' width='70' height='16' rx='6' fill='#ffffff' stroke='none' stroke-width='1.2'/>
-<text x='88' y='103' font-family='Helvetica, Arial, sans-serif' font-size='9' font-weight='400' fill='#3b3947' text-anchor='start'>Toy Haven</text><rect x='292' y='88' width='26' height='24' rx='6' fill='#f2f0f7' stroke='#9a97a8' stroke-width='1.2'/>
-<text x='305' y='103.333' font-family='Helvetica, Arial, sans-serif' font-size='10' font-weight='400' fill='#3b3947' text-anchor='middle'>☾</text><rect x='324' y='88' width='26' height='24' rx='6' fill='#f2f0f7' stroke='#9a97a8' stroke-width='1.2'/>
-<text x='337' y='103.333' font-family='Helvetica, Arial, sans-serif' font-size='10' font-weight='400' fill='#3b3947' text-anchor='middle'>≡</text>
-<rect x='430' y='80' width='740' height='46' rx='6' fill='#ffffff' stroke='#9a97a8' stroke-width='1.2'/><rect x='442' y='91' width='24' height='24' rx='6' fill='#ded8f7' stroke='#9a97a8' stroke-width='1.2'/><rect x='472' y='95' width='80' height='16' rx='6' fill='#ffffff' stroke='none' stroke-width='1.2'/>
-<text x='512' y='106.333' font-family='Helvetica, Arial, sans-serif' font-size='10' font-weight='400' fill='#3b3947' text-anchor='middle'>Toy Haven</text><rect x='650' y='93' width='300' height='20' rx='6' fill='#ffffff' stroke='none' stroke-width='1.2'/>
-<text x='800' y='106.333' font-family='Helvetica, Arial, sans-serif' font-size='10' font-weight='400' fill='#3b3947' text-anchor='middle'>Home · Products · Cart · Wishlist · Support</text><rect x='1124' y='91' width='34' height='24' rx='6' fill='#f2f0f7' stroke='#9a97a8' stroke-width='1.2'/>
-<text x='1141' y='106.333' font-family='Helvetica, Arial, sans-serif' font-size='10' font-weight='400' fill='#3b3947' text-anchor='middle'>☾</text>
-<rect x='50' y='130' width='300' height='56' rx='6' fill='#ffffff' stroke='#9a97a8' stroke-width='1.2'/>
-<text x='200' y='161.333' font-family='Helvetica, Arial, sans-serif' font-size='10' font-weight='400' fill='#3b3947' text-anchor='middle'>Page head + breadcrumb</text>
-<rect x='50' y='194' width='300' height='110' rx='6' fill='#eeecf5' stroke='#9a97a8' stroke-width='1.2'/>
-<text x='200' y='245.833' font-family='Helvetica, Arial, sans-serif' font-size='10' font-weight='400' fill='#3b3947' text-anchor='middle'>Toolbar: search, sort,</text>
-<text x='200' y='258.833' font-family='Helvetica, Arial, sans-serif' font-size='10' font-weight='400' fill='#3b3947' text-anchor='middle'>category filter chips</text>
-<rect x='50' y='312' width='300' height='30' rx='6' fill='#ffffff' stroke='#9a97a8' stroke-width='1.2'/>
-<text x='200' y='330.333' font-family='Helvetica, Arial, sans-serif' font-size='10' font-weight='400' fill='#3b3947' text-anchor='middle'>Results count + reset</text>
-<rect x='50' y='350' width='300' height='150' rx='6' fill='#ffffff' stroke='#9a97a8' stroke-width='1.2'/>
-<text x='200' y='428.333' font-family='Helvetica, Arial, sans-serif' font-size='10' font-weight='400' fill='#3b3947' text-anchor='middle'>Product card</text>
-<rect x='50' y='508' width='300' height='150' rx='6' fill='#ffffff' stroke='#9a97a8' stroke-width='1.2'/>
-<text x='200' y='586.333' font-family='Helvetica, Arial, sans-serif' font-size='10' font-weight='400' fill='#3b3947' text-anchor='middle'>Product card</text>
-<rect x='50' y='666' width='300' height='40' rx='6' fill='#ffffff' stroke='#9a97a8' stroke-width='1.2'/>
-<text x='200' y='689.333' font-family='Helvetica, Arial, sans-serif' font-size='10' font-weight='400' fill='#3b3947' text-anchor='middle'>… 24 cards in total</text>
-<rect x='40' y='728' width='320' height='110' rx='6' fill='#f2f0f7' stroke='#9a97a8' stroke-width='1.2'/><rect x='50' y='738' width='300' height='20' rx='6' fill='#ffffff' stroke='#9a97a8' stroke-width='1.2'/>
-<text x='200' y='751' font-family='Helvetica, Arial, sans-serif' font-size='9' font-weight='400' fill='#3b3947' text-anchor='middle'>Brand + blurb</text><rect x='50' y='762' width='145' height='20' rx='6' fill='#ffffff' stroke='#9a97a8' stroke-width='1.2'/>
-<text x='122.5' y='775' font-family='Helvetica, Arial, sans-serif' font-size='9' font-weight='400' fill='#3b3947' text-anchor='middle'>Shop links</text><rect x='205' y='762' width='145' height='20' rx='6' fill='#ffffff' stroke='#9a97a8' stroke-width='1.2'/>
-<text x='277.5' y='775' font-family='Helvetica, Arial, sans-serif' font-size='9' font-weight='400' fill='#3b3947' text-anchor='middle'>Help links</text><rect x='50' y='786' width='300' height='40' rx='6' fill='#ffffff' stroke='#9a97a8' stroke-width='1.2'/>
-<text x='200' y='809' font-family='Helvetica, Arial, sans-serif' font-size='9' font-weight='400' fill='#3b3947' text-anchor='middle'>Newsletter form (localStorage)</text>
-<rect x='444' y='140' width='712' height='70' rx='6' fill='#ffffff' stroke='#9a97a8' stroke-width='1.2'/>
-<text x='800' y='178.667' font-family='Helvetica, Arial, sans-serif' font-size='11' font-weight='400' fill='#3b3947' text-anchor='middle'>Page head — breadcrumb, title, intro</text>
-<rect x='444' y='220' width='712' height='86' rx='6' fill='#eeecf5' stroke='#9a97a8' stroke-width='1.2'/>
-<text x='800' y='266.667' font-family='Helvetica, Arial, sans-serif' font-size='11' font-weight='400' fill='#3b3947' text-anchor='middle'>Toolbar — search box, sort select, category filter chips (All / Figurines / Toys / Board Games / Diecast)</text>
-<rect x='444' y='316' width='712' height='34' rx='6' fill='#ffffff' stroke='#9a97a8' stroke-width='1.2'/>
-<text x='800' y='336.667' font-family='Helvetica, Arial, sans-serif' font-size='11' font-weight='400' fill='#3b3947' text-anchor='middle'>Showing X of 24 products                                                                    Reset filters</text>
-<rect x='444' y='360' width='170.5' height='170' rx='6' fill='#ffffff' stroke='#9a97a8' stroke-width='1.2'/>
-<text x='529.25' y='441.833' font-family='Helvetica, Arial, sans-serif' font-size='10' font-weight='400' fill='#3b3947' text-anchor='middle'>Product card</text>
-<text x='529.25' y='454.833' font-family='Helvetica, Arial, sans-serif' font-size='10' font-weight='400' fill='#3b3947' text-anchor='middle'>image, tag, category, rating</text>
-<rect x='624.5' y='360' width='170.5' height='170' rx='6' fill='#ffffff' stroke='#9a97a8' stroke-width='1.2'/>
-<text x='709.75' y='441.833' font-family='Helvetica, Arial, sans-serif' font-size='10' font-weight='400' fill='#3b3947' text-anchor='middle'>Product card</text>
-<text x='709.75' y='454.833' font-family='Helvetica, Arial, sans-serif' font-size='10' font-weight='400' fill='#3b3947' text-anchor='middle'>name, brand, price</text>
-<rect x='805' y='360' width='170.5' height='170' rx='6' fill='#ffffff' stroke='#9a97a8' stroke-width='1.2'/>
-<text x='890.25' y='441.833' font-family='Helvetica, Arial, sans-serif' font-size='10' font-weight='400' fill='#3b3947' text-anchor='middle'>Product card</text>
-<text x='890.25' y='454.833' font-family='Helvetica, Arial, sans-serif' font-size='10' font-weight='400' fill='#3b3947' text-anchor='middle'>Add to Cart · Details · ♥</text>
-<rect x='985.5' y='360' width='170.5' height='170' rx='6' fill='#ffffff' stroke='#9a97a8' stroke-width='1.2'/>
-<text x='1070.75' y='448.333' font-family='Helvetica, Arial, sans-serif' font-size='10' font-weight='400' fill='#3b3947' text-anchor='middle'>Product card</text>
-<rect x='444' y='540' width='170.5' height='170' rx='6' fill='#ffffff' stroke='#9a97a8' stroke-width='1.2'/>
-<text x='529.25' y='628.333' font-family='Helvetica, Arial, sans-serif' font-size='10' font-weight='400' fill='#3b3947' text-anchor='middle'>Product card</text>
-<rect x='624.5' y='540' width='170.5' height='170' rx='6' fill='#ffffff' stroke='#9a97a8' stroke-width='1.2'/>
-<text x='709.75' y='628.333' font-family='Helvetica, Arial, sans-serif' font-size='10' font-weight='400' fill='#3b3947' text-anchor='middle'>Product card</text>
-<rect x='805' y='540' width='170.5' height='170' rx='6' fill='#ffffff' stroke='#9a97a8' stroke-width='1.2'/>
-<text x='890.25' y='628.333' font-family='Helvetica, Arial, sans-serif' font-size='10' font-weight='400' fill='#3b3947' text-anchor='middle'>Product card</text>
-<rect x='985.5' y='540' width='170.5' height='170' rx='6' fill='#ffffff' stroke='#9a97a8' stroke-width='1.2'/>
-<text x='1070.75' y='628.333' font-family='Helvetica, Arial, sans-serif' font-size='10' font-weight='400' fill='#3b3947' text-anchor='middle'>Product card</text>
-<rect x='444' y='720' width='712' height='60' rx='6' fill='#eeecf5' stroke='#9a97a8' stroke-width='1.2'/>
-<text x='800' y='753.667' font-family='Helvetica, Arial, sans-serif' font-size='11' font-weight='400' fill='#3b3947' text-anchor='middle'>Modal opens over the grid: large image + specification table + Add to Cart</text>
-<rect x='430' y='804' width='740' height='92' rx='6' fill='#f2f0f7' stroke='#9a97a8' stroke-width='1.2'/><rect x='440' y='816' width='172.5' height='66' rx='6' fill='#ffffff' stroke='#9a97a8' stroke-width='1.2'/>
-<text x='526.25' y='852' font-family='Helvetica, Arial, sans-serif' font-size='9' font-weight='400' fill='#3b3947' text-anchor='middle'>Brand + blurb</text><rect x='622.5' y='816' width='172.5' height='66' rx='6' fill='#ffffff' stroke='#9a97a8' stroke-width='1.2'/>
-<text x='708.75' y='852' font-family='Helvetica, Arial, sans-serif' font-size='9' font-weight='400' fill='#3b3947' text-anchor='middle'>Shop links</text><rect x='805' y='816' width='172.5' height='66' rx='6' fill='#ffffff' stroke='#9a97a8' stroke-width='1.2'/>
-<text x='891.25' y='852' font-family='Helvetica, Arial, sans-serif' font-size='9' font-weight='400' fill='#3b3947' text-anchor='middle'>Help links</text><rect x='987.5' y='816' width='172.5' height='66' rx='6' fill='#ffffff' stroke='#9a97a8' stroke-width='1.2'/>
-<text x='1073.75' y='852' font-family='Helvetica, Arial, sans-serif' font-size='9' font-weight='400' fill='#3b3947' text-anchor='middle'>Newsletter form</text>
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1240 1833' width='1240' height='1833' role='img' aria-label='2. Product listing page wireframe'>
+<rect width='1240' height='1833' fill='#ffffff'/>
+<text x='36' y='34' font-family='Helvetica, Arial, sans-serif' font-size='18' font-weight='700' fill='#2f2f2f' letter-spacing='0.8'>2. Product listing page</text>
+<text x='36' y='54' font-family='Helvetica, Arial, sans-serif' font-size='11' font-weight='400' fill='#8d8d8d'>Search, sort and category filters over a responsive product grid with pagination.</text>
+<rect x='40' y='92' width='340' height='56' rx='0' fill='none' stroke='#2f2f2f' stroke-width='2'/>
+<circle cx='74' cy='120' r='18' fill='none' stroke='#2f2f2f' stroke-width='2'/>
+<text x='74' y='124' font-family='Helvetica, Arial, sans-serif' font-size='9' font-weight='700' fill='#2f2f2f' text-anchor='middle' letter-spacing='0.6'>LOGO</text>
+<circle cx='306' cy='120' r='8' fill='none' stroke='#2f2f2f' stroke-width='2'/>
+<line x1='312' y1='126' x2='318' y2='132' stroke='#2f2f2f' stroke-width='2' stroke-linecap='round'/>
+<path d='M 328 112.0 L 331.24 112.0 L 334.12 123.52 L 346 123.52 L 343.84 114.56 L 332.32 114.56' fill='none' stroke='#2f2f2f' stroke-width='2' stroke-linejoin='round' stroke-linecap='round'/>
+<circle cx='336' cy='128' r='2' fill='none' stroke='#2f2f2f' stroke-width='2'/>
+<circle cx='343' cy='128' r='2' fill='none' stroke='#2f2f2f' stroke-width='2'/>
+<line x1='354' y1='114' x2='372' y2='114' stroke='#2f2f2f' stroke-width='2' stroke-linecap='round'/>
+<line x1='354' y1='120' x2='372' y2='120' stroke='#2f2f2f' stroke-width='2' stroke-linecap='round'/>
+<line x1='354' y1='126' x2='372' y2='126' stroke='#2f2f2f' stroke-width='2' stroke-linecap='round'/>
+<rect x='40' y='148' width='340' height='70' rx='0' fill='#fbfbfb' stroke='#2f2f2f' stroke-width='2'/>
+<rect x='56' y='164' width='30' height='7' rx='3.5' fill='none' stroke='#2f2f2f' stroke-width='2'/>
+<text x='96' y='172' font-family='Helvetica, Arial, sans-serif' font-size='10' font-weight='400' fill='#8d8d8d' text-anchor='middle' letter-spacing='0.6'>/</text>
+<rect x='106' y='164' width='44' height='7' rx='3.5' fill='none' stroke='#2f2f2f' stroke-width='2'/>
+<rect x='56' y='180' width='170' height='24' rx='4' fill='none' stroke='#2f2f2f' stroke-width='2'/>
+<text x='141' y='196' font-family='Helvetica, Arial, sans-serif' font-size='10' font-weight='700' fill='#2f2f2f' text-anchor='middle' letter-spacing='0.6'>ALL TOYS</text>
+<rect x='56' y='238' width='308' height='34' rx='4' fill='none' stroke='#2f2f2f' stroke-width='2'/>
+<circle cx='74' cy='255' r='8' fill='none' stroke='#2f2f2f' stroke-width='2'/>
+<line x1='80' y1='261' x2='86' y2='267' stroke='#2f2f2f' stroke-width='2' stroke-linecap='round'/>
+<rect x='90' y='251' width='90' height='8' rx='4.0' fill='none' stroke='#2f2f2f' stroke-width='2'/>
+<rect x='56' y='282' width='150' height='30' rx='4' fill='none' stroke='#2f2f2f' stroke-width='2'/>
+<text x='131' y='301' font-family='Helvetica, Arial, sans-serif' font-size='9' font-weight='700' fill='#2f2f2f' text-anchor='middle' letter-spacing='0.6'>SORT</text>
+<rect x='214' y='282' width='150' height='30' rx='4' fill='none' stroke='#2f2f2f' stroke-width='2'/>
+<text x='289' y='301' font-family='Helvetica, Arial, sans-serif' font-size='9' font-weight='700' fill='#2f2f2f' text-anchor='middle' letter-spacing='0.6'>FILTER</text>
+<rect x='56' y='330' width='66' height='24' rx='12' fill='none' stroke='#2f2f2f' stroke-width='2'/>
+<rect x='68' y='338' width='42' height='8' rx='4.0' fill='none' stroke='#2f2f2f' stroke-width='2'/>
+<rect x='132' y='330' width='82' height='24' rx='12' fill='none' stroke='#2f2f2f' stroke-width='2'/>
+<rect x='144' y='338' width='58' height='8' rx='4.0' fill='none' stroke='#2f2f2f' stroke-width='2'/>
+<rect x='224' y='330' width='74' height='24' rx='12' fill='none' stroke='#2f2f2f' stroke-width='2'/>
+<rect x='236' y='338' width='50' height='8' rx='4.0' fill='none' stroke='#2f2f2f' stroke-width='2'/>
+<rect x='56' y='370' width='130' height='8' rx='4.0' fill='none' stroke='#2f2f2f' stroke-width='2'/>
+<rect x='56' y='396' width='147' height='224' rx='6' fill='none' stroke='#2f2f2f' stroke-width='2'/>
+<rect x='66' y='406' width='127' height='106' rx='4' fill='none' stroke='#2f2f2f' stroke-width='2'/>
+<circle cx='95' cy='432' r='9' fill='none' stroke='#2f2f2f' stroke-width='2'/>
+<path d='M 79 501 L 117 442 L 150 501 Z' fill='none' stroke='#2f2f2f' stroke-width='2' stroke-linejoin='round' stroke-linecap='round'/>
+<path d='M 136 501 L 158 457 L 180 501 Z' fill='none' stroke='#2f2f2f' stroke-width='2' stroke-linejoin='round' stroke-linecap='round'/>
+<rect x='68' y='524' width='123' height='8' rx='4.0' fill='none' stroke='#2f2f2f' stroke-width='2'/>
+<rect x='68' y='539' width='76' height='8' rx='4.0' fill='none' stroke='#2f2f2f' stroke-width='2'/>
+<rect x='68' y='558' width='52' height='11' rx='5.5' fill='none' stroke='#2f2f2f' stroke-width='2'/>
+<rect x='68' y='578' width='69' height='26' rx='4' fill='#e6e6e6' stroke='#2f2f2f' stroke-width='2'/>
+<text x='102' y='595' font-family='Helvetica, Arial, sans-serif' font-size='10' font-weight='700' fill='#2f2f2f' text-anchor='middle' letter-spacing='0.6'>ADD</text>
+<rect x='145' y='578' width='46' height='26' rx='4' fill='none' stroke='#2f2f2f' stroke-width='2'/>
+<path d='M 168.0 595.9399999999999 C 159.0 589.6399999999999 164.4 584.2399999999999 168.0 589.3399999999999 C 171.6 584.2399999999999 177.0 589.6399999999999 168.0 595.9399999999999 Z' fill='none' stroke='#2f2f2f' stroke-width='2' stroke-linejoin='round' stroke-linecap='round'/>
+<rect x='217' y='396' width='147' height='224' rx='6' fill='none' stroke='#2f2f2f' stroke-width='2'/>
+<rect x='227' y='406' width='127' height='106' rx='4' fill='none' stroke='#2f2f2f' stroke-width='2'/>
+<circle cx='256' cy='432' r='9' fill='none' stroke='#2f2f2f' stroke-width='2'/>
+<path d='M 240 501 L 278 442 L 311 501 Z' fill='none' stroke='#2f2f2f' stroke-width='2' stroke-linejoin='round' stroke-linecap='round'/>
+<path d='M 297 501 L 319 457 L 341 501 Z' fill='none' stroke='#2f2f2f' stroke-width='2' stroke-linejoin='round' stroke-linecap='round'/>
+<rect x='229' y='524' width='123' height='8' rx='4.0' fill='none' stroke='#2f2f2f' stroke-width='2'/>
+<rect x='229' y='539' width='76' height='8' rx='4.0' fill='none' stroke='#2f2f2f' stroke-width='2'/>
+<rect x='229' y='558' width='52' height='11' rx='5.5' fill='none' stroke='#2f2f2f' stroke-width='2'/>
+<rect x='229' y='578' width='69' height='26' rx='4' fill='#e6e6e6' stroke='#2f2f2f' stroke-width='2'/>
+<text x='264' y='595' font-family='Helvetica, Arial, sans-serif' font-size='10' font-weight='700' fill='#2f2f2f' text-anchor='middle' letter-spacing='0.6'>ADD</text>
+<rect x='306' y='578' width='46' height='26' rx='4' fill='none' stroke='#2f2f2f' stroke-width='2'/>
+<path d='M 329.0 595.9399999999999 C 320.0 589.6399999999999 325.4 584.2399999999999 329.0 589.3399999999999 C 332.6 584.2399999999999 338.0 589.6399999999999 329.0 595.9399999999999 Z' fill='none' stroke='#2f2f2f' stroke-width='2' stroke-linejoin='round' stroke-linecap='round'/>
+<rect x='56' y='634' width='147' height='224' rx='6' fill='none' stroke='#2f2f2f' stroke-width='2'/>
+<rect x='66' y='644' width='127' height='106' rx='4' fill='none' stroke='#2f2f2f' stroke-width='2'/>
+<circle cx='95' cy='670' r='9' fill='none' stroke='#2f2f2f' stroke-width='2'/>
+<path d='M 79 739 L 117 680 L 150 739 Z' fill='none' stroke='#2f2f2f' stroke-width='2' stroke-linejoin='round' stroke-linecap='round'/>
+<path d='M 136 739 L 158 695 L 180 739 Z' fill='none' stroke='#2f2f2f' stroke-width='2' stroke-linejoin='round' stroke-linecap='round'/>
+<rect x='68' y='762' width='123' height='8' rx='4.0' fill='none' stroke='#2f2f2f' stroke-width='2'/>
+<rect x='68' y='777' width='76' height='8' rx='4.0' fill='none' stroke='#2f2f2f' stroke-width='2'/>
+<rect x='68' y='796' width='52' height='11' rx='5.5' fill='none' stroke='#2f2f2f' stroke-width='2'/>
+<rect x='68' y='816' width='69' height='26' rx='4' fill='#e6e6e6' stroke='#2f2f2f' stroke-width='2'/>
+<text x='102' y='833' font-family='Helvetica, Arial, sans-serif' font-size='10' font-weight='700' fill='#2f2f2f' text-anchor='middle' letter-spacing='0.6'>ADD</text>
+<rect x='145' y='816' width='46' height='26' rx='4' fill='none' stroke='#2f2f2f' stroke-width='2'/>
+<path d='M 168.0 833.78 C 159.0 827.4799999999999 164.4 822.0799999999999 168.0 827.18 C 171.6 822.0799999999999 177.0 827.4799999999999 168.0 833.78 Z' fill='none' stroke='#2f2f2f' stroke-width='2' stroke-linejoin='round' stroke-linecap='round'/>
+<rect x='217' y='634' width='147' height='224' rx='6' fill='none' stroke='#2f2f2f' stroke-width='2'/>
+<rect x='227' y='644' width='127' height='106' rx='4' fill='none' stroke='#2f2f2f' stroke-width='2'/>
+<circle cx='256' cy='670' r='9' fill='none' stroke='#2f2f2f' stroke-width='2'/>
+<path d='M 240 739 L 278 680 L 311 739 Z' fill='none' stroke='#2f2f2f' stroke-width='2' stroke-linejoin='round' stroke-linecap='round'/>
+<path d='M 297 739 L 319 695 L 341 739 Z' fill='none' stroke='#2f2f2f' stroke-width='2' stroke-linejoin='round' stroke-linecap='round'/>
+<rect x='229' y='762' width='123' height='8' rx='4.0' fill='none' stroke='#2f2f2f' stroke-width='2'/>
+<rect x='229' y='777' width='76' height='8' rx='4.0' fill='none' stroke='#2f2f2f' stroke-width='2'/>
+<rect x='229' y='796' width='52' height='11' rx='5.5' fill='none' stroke='#2f2f2f' stroke-width='2'/>
+<rect x='229' y='816' width='69' height='26' rx='4' fill='#e6e6e6' stroke='#2f2f2f' stroke-width='2'/>
+<text x='264' y='833' font-family='Helvetica, Arial, sans-serif' font-size='10' font-weight='700' fill='#2f2f2f' text-anchor='middle' letter-spacing='0.6'>ADD</text>
+<rect x='306' y='816' width='46' height='26' rx='4' fill='none' stroke='#2f2f2f' stroke-width='2'/>
+<path d='M 329.0 833.78 C 320.0 827.4799999999999 325.4 822.0799999999999 329.0 827.18 C 332.6 822.0799999999999 338.0 827.4799999999999 329.0 833.78 Z' fill='none' stroke='#2f2f2f' stroke-width='2' stroke-linejoin='round' stroke-linecap='round'/>
+<rect x='56' y='872' width='147' height='224' rx='6' fill='none' stroke='#2f2f2f' stroke-width='2'/>
+<rect x='66' y='882' width='127' height='106' rx='4' fill='none' stroke='#2f2f2f' stroke-width='2'/>
+<circle cx='95' cy='908' r='9' fill='none' stroke='#2f2f2f' stroke-width='2'/>
+<path d='M 79 977 L 117 918 L 150 977 Z' fill='none' stroke='#2f2f2f' stroke-width='2' stroke-linejoin='round' stroke-linecap='round'/>
+<path d='M 136 977 L 158 933 L 180 977 Z' fill='none' stroke='#2f2f2f' stroke-width='2' stroke-linejoin='round' stroke-linecap='round'/>
+<rect x='68' y='1000' width='123' height='8' rx='4.0' fill='none' stroke='#2f2f2f' stroke-width='2'/>
+<rect x='68' y='1015' width='76' height='8' rx='4.0' fill='none' stroke='#2f2f2f' stroke-width='2'/>
+<rect x='68' y='1034' width='52' height='11' rx='5.5' fill='none' stroke='#2f2f2f' stroke-width='2'/>
+<rect x='68' y='1054' width='69' height='26' rx='4' fill='#e6e6e6' stroke='#2f2f2f' stroke-width='2'/>
+<text x='102' y='1071' font-family='Helvetica, Arial, sans-serif' font-size='10' font-weight='700' fill='#2f2f2f' text-anchor='middle' letter-spacing='0.6'>ADD</text>
+<rect x='145' y='1054' width='46' height='26' rx='4' fill='none' stroke='#2f2f2f' stroke-width='2'/>
+<path d='M 168.0 1071.62 C 159.0 1065.32 164.4 1059.92 168.0 1065.02 C 171.6 1059.92 177.0 1065.32 168.0 1071.62 Z' fill='none' stroke='#2f2f2f' stroke-width='2' stroke-linejoin='round' stroke-linecap='round'/>
+<rect x='217' y='872' width='147' height='224' rx='6' fill='none' stroke='#2f2f2f' stroke-width='2'/>
+<rect x='227' y='882' width='127' height='106' rx='4' fill='none' stroke='#2f2f2f' stroke-width='2'/>
+<circle cx='256' cy='908' r='9' fill='none' stroke='#2f2f2f' stroke-width='2'/>
+<path d='M 240 977 L 278 918 L 311 977 Z' fill='none' stroke='#2f2f2f' stroke-width='2' stroke-linejoin='round' stroke-linecap='round'/>
+<path d='M 297 977 L 319 933 L 341 977 Z' fill='none' stroke='#2f2f2f' stroke-width='2' stroke-linejoin='round' stroke-linecap='round'/>
+<rect x='229' y='1000' width='123' height='8' rx='4.0' fill='none' stroke='#2f2f2f' stroke-width='2'/>
+<rect x='229' y='1015' width='76' height='8' rx='4.0' fill='none' stroke='#2f2f2f' stroke-width='2'/>
+<rect x='229' y='1034' width='52' height='11' rx='5.5' fill='none' stroke='#2f2f2f' stroke-width='2'/>
+<rect x='229' y='1054' width='69' height='26' rx='4' fill='#e6e6e6' stroke='#2f2f2f' stroke-width='2'/>
+<text x='264' y='1071' font-family='Helvetica, Arial, sans-serif' font-size='10' font-weight='700' fill='#2f2f2f' text-anchor='middle' letter-spacing='0.6'>ADD</text>
+<rect x='306' y='1054' width='46' height='26' rx='4' fill='none' stroke='#2f2f2f' stroke-width='2'/>
+<path d='M 329.0 1071.62 C 320.0 1065.32 325.4 1059.92 329.0 1065.02 C 332.6 1059.92 338.0 1065.32 329.0 1071.62 Z' fill='none' stroke='#2f2f2f' stroke-width='2' stroke-linejoin='round' stroke-linecap='round'/>
+<rect x='56' y='1110' width='147' height='224' rx='6' fill='none' stroke='#2f2f2f' stroke-width='2'/>
+<rect x='66' y='1120' width='127' height='106' rx='4' fill='none' stroke='#2f2f2f' stroke-width='2'/>
+<circle cx='95' cy='1145' r='9' fill='none' stroke='#2f2f2f' stroke-width='2'/>
+<path d='M 79 1215 L 117 1156 L 150 1215 Z' fill='none' stroke='#2f2f2f' stroke-width='2' stroke-linejoin='round' stroke-linecap='round'/>
+<path d='M 136 1215 L 158 1171 L 180 1215 Z' fill='none' stroke='#2f2f2f' stroke-width='2' stroke-linejoin='round' stroke-linecap='round'/>
+<rect x='68' y='1237' width='123' height='8' rx='4.0' fill='none' stroke='#2f2f2f' stroke-width='2'/>
+<rect x='68' y='1252' width='76' height='8' rx='4.0' fill='none' stroke='#2f2f2f' stroke-width='2'/>
+<rect x='68' y='1271' width='52' height='11' rx='5.5' fill='none' stroke='#2f2f2f' stroke-width='2'/>
+<rect x='68' y='1291' width='69' height='26' rx='4' fill='#e6e6e6' stroke='#2f2f2f' stroke-width='2'/>
+<text x='102' y='1308' font-family='Helvetica, Arial, sans-serif' font-size='10' font-weight='700' fill='#2f2f2f' text-anchor='middle' letter-spacing='0.6'>ADD</text>
+<rect x='145' y='1291' width='46' height='26' rx='4' fill='none' stroke='#2f2f2f' stroke-width='2'/>
+<path d='M 168.0 1309.4599999999998 C 159.0 1303.1599999999999 164.4 1297.76 168.0 1302.86 C 171.6 1297.76 177.0 1303.1599999999999 168.0 1309.4599999999998 Z' fill='none' stroke='#2f2f2f' stroke-width='2' stroke-linejoin='round' stroke-linecap='round'/>
+<rect x='217' y='1110' width='147' height='224' rx='6' fill='none' stroke='#2f2f2f' stroke-width='2'/>
+<rect x='227' y='1120' width='127' height='106' rx='4' fill='none' stroke='#2f2f2f' stroke-width='2'/>
+<circle cx='256' cy='1145' r='9' fill='none' stroke='#2f2f2f' stroke-width='2'/>
+<path d='M 240 1215 L 278 1156 L 311 1215 Z' fill='none' stroke='#2f2f2f' stroke-width='2' stroke-linejoin='round' stroke-linecap='round'/>
+<path d='M 297 1215 L 319 1171 L 341 1215 Z' fill='none' stroke='#2f2f2f' stroke-width='2' stroke-linejoin='round' stroke-linecap='round'/>
+<rect x='229' y='1237' width='123' height='8' rx='4.0' fill='none' stroke='#2f2f2f' stroke-width='2'/>
+<rect x='229' y='1252' width='76' height='8' rx='4.0' fill='none' stroke='#2f2f2f' stroke-width='2'/>
+<rect x='229' y='1271' width='52' height='11' rx='5.5' fill='none' stroke='#2f2f2f' stroke-width='2'/>
+<rect x='229' y='1291' width='69' height='26' rx='4' fill='#e6e6e6' stroke='#2f2f2f' stroke-width='2'/>
+<text x='264' y='1308' font-family='Helvetica, Arial, sans-serif' font-size='10' font-weight='700' fill='#2f2f2f' text-anchor='middle' letter-spacing='0.6'>ADD</text>
+<rect x='306' y='1291' width='46' height='26' rx='4' fill='none' stroke='#2f2f2f' stroke-width='2'/>
+<path d='M 329.0 1309.4599999999998 C 320.0 1303.1599999999999 325.4 1297.76 329.0 1302.86 C 332.6 1297.76 338.0 1303.1599999999999 329.0 1309.4599999999998 Z' fill='none' stroke='#2f2f2f' stroke-width='2' stroke-linejoin='round' stroke-linecap='round'/>
+<rect x='122' y='1353' width='28' height='28' rx='4' fill='#e6e6e6' stroke='#2f2f2f' stroke-width='2'/>
+<rect x='158' y='1353' width='28' height='28' rx='4' fill='none' stroke='#2f2f2f' stroke-width='2'/>
+<rect x='194' y='1353' width='28' height='28' rx='4' fill='none' stroke='#2f2f2f' stroke-width='2'/>
+<rect x='230' y='1353' width='28' height='28' rx='4' fill='none' stroke='#2f2f2f' stroke-width='2'/>
+<rect x='266' y='1353' width='28' height='28' rx='4' fill='none' stroke='#2f2f2f' stroke-width='2'/>
+<rect x='40' y='1401' width='340' height='0' rx='4' fill='none' stroke='#2f2f2f' stroke-width='2'/>
+<line x1='40' y1='1401' x2='380' y2='1401' stroke='#2f2f2f' stroke-width='2' stroke-linecap='round'/>
+<circle cx='74' cy='1435' r='16' fill='none' stroke='#2f2f2f' stroke-width='2'/>
+<text x='74' y='1439' font-family='Helvetica, Arial, sans-serif' font-size='9' font-weight='700' fill='#2f2f2f' text-anchor='middle' letter-spacing='0.6'>LOGO</text>
+<rect x='102' y='1423' width='260' height='7' rx='3.5' fill='none' stroke='#2f2f2f' stroke-width='2'/>
+<rect x='102' y='1437' width='161' height='7' rx='3.5' fill='none' stroke='#2f2f2f' stroke-width='2'/>
+<rect x='56' y='1463' width='76' height='8' rx='4.0' fill='none' stroke='#2f2f2f' stroke-width='2'/>
+<rect x='56' y='1479' width='170' height='7' rx='3.5' fill='none' stroke='#2f2f2f' stroke-width='2'/>
+<rect x='56' y='1493' width='170' height='7' rx='3.5' fill='none' stroke='#2f2f2f' stroke-width='2'/>
+<rect x='56' y='1507' width='105' height='7' rx='3.5' fill='none' stroke='#2f2f2f' stroke-width='2'/>
+<rect x='56' y='1537' width='76' height='8' rx='4.0' fill='none' stroke='#2f2f2f' stroke-width='2'/>
+<rect x='56' y='1553' width='170' height='7' rx='3.5' fill='none' stroke='#2f2f2f' stroke-width='2'/>
+<rect x='56' y='1567' width='170' height='7' rx='3.5' fill='none' stroke='#2f2f2f' stroke-width='2'/>
+<rect x='56' y='1581' width='105' height='7' rx='3.5' fill='none' stroke='#2f2f2f' stroke-width='2'/>
+<rect x='56' y='1611' width='76' height='8' rx='4.0' fill='none' stroke='#2f2f2f' stroke-width='2'/>
+<rect x='56' y='1627' width='170' height='7' rx='3.5' fill='none' stroke='#2f2f2f' stroke-width='2'/>
+<rect x='56' y='1641' width='170' height='7' rx='3.5' fill='none' stroke='#2f2f2f' stroke-width='2'/>
+<rect x='56' y='1655' width='105' height='7' rx='3.5' fill='none' stroke='#2f2f2f' stroke-width='2'/>
+<rect x='56' y='1685' width='308' height='22' rx='4' fill='none' stroke='#2f2f2f' stroke-width='2'/>
+<text x='210' y='1700' font-family='Helvetica, Arial, sans-serif' font-size='9' font-weight='700' fill='#2f2f2f' text-anchor='middle' letter-spacing='0.6'>NEWSLETTER</text>
+<rect x='56' y='1715' width='244' height='28' rx='4' fill='none' stroke='#2f2f2f' stroke-width='2'/>
+<rect x='306' y='1715' width='58' height='28' rx='4' fill='#e6e6e6' stroke='#2f2f2f' stroke-width='2'/>
+<text x='335' y='1733' font-family='Helvetica, Arial, sans-serif' font-size='10' font-weight='700' fill='#2f2f2f' text-anchor='middle' letter-spacing='0.6'>SEND</text>
+<line x1='40' y1='1765' x2='380' y2='1765' stroke='#8d8d8d' stroke-width='1' stroke-linecap='round'/>
+<rect x='150' y='1775' width='120' height='7' rx='3.5' fill='none' stroke='#2f2f2f' stroke-width='2'/>
+<rect x='440' y='92' width='760' height='56' rx='0' fill='none' stroke='#2f2f2f' stroke-width='2'/>
+<circle cx='474' cy='120' r='18' fill='none' stroke='#2f2f2f' stroke-width='2'/>
+<text x='474' y='124' font-family='Helvetica, Arial, sans-serif' font-size='9' font-weight='700' fill='#2f2f2f' text-anchor='middle' letter-spacing='0.6'>LOGO</text>
+<rect x='514' y='116' width='44' height='8' rx='4.0' fill='none' stroke='#2f2f2f' stroke-width='2'/>
+<rect x='570' y='116' width='44' height='8' rx='4.0' fill='none' stroke='#2f2f2f' stroke-width='2'/>
+<rect x='626' y='116' width='44' height='8' rx='4.0' fill='none' stroke='#2f2f2f' stroke-width='2'/>
+<rect x='682' y='116' width='44' height='8' rx='4.0' fill='none' stroke='#2f2f2f' stroke-width='2'/>
+<rect x='738' y='116' width='44' height='8' rx='4.0' fill='none' stroke='#2f2f2f' stroke-width='2'/>
+<circle cx='1104' cy='120' r='8' fill='none' stroke='#2f2f2f' stroke-width='2'/>
+<line x1='1110' y1='126' x2='1116' y2='132' stroke='#2f2f2f' stroke-width='2' stroke-linecap='round'/>
+<path d='M 1138 126.8 C 1126.0 118.4 1133.2 111.2 1138 118.0 C 1142.8 111.2 1150.0 118.4 1138 126.8 Z' fill='none' stroke='#2f2f2f' stroke-width='2' stroke-linejoin='round' stroke-linecap='round'/>
+<path d='M 1160 112.0 L 1163.24 112.0 L 1166.12 123.52 L 1178 123.52 L 1175.84 114.56 L 1164.32 114.56' fill='none' stroke='#2f2f2f' stroke-width='2' stroke-linejoin='round' stroke-linecap='round'/>
+<circle cx='1168' cy='128' r='2' fill='none' stroke='#2f2f2f' stroke-width='2'/>
+<circle cx='1175' cy='128' r='2' fill='none' stroke='#2f2f2f' stroke-width='2'/>
+<circle cx='1178' cy='114' r='3' fill='none' stroke='#2f2f2f' stroke-width='2'/>
+<rect x='440' y='148' width='760' height='70' rx='0' fill='#fbfbfb' stroke='#2f2f2f' stroke-width='2'/>
+<rect x='456' y='164' width='30' height='7' rx='3.5' fill='none' stroke='#2f2f2f' stroke-width='2'/>
+<text x='496' y='172' font-family='Helvetica, Arial, sans-serif' font-size='10' font-weight='400' fill='#8d8d8d' text-anchor='middle' letter-spacing='0.6'>/</text>
+<rect x='506' y='164' width='44' height='7' rx='3.5' fill='none' stroke='#2f2f2f' stroke-width='2'/>
+<rect x='456' y='180' width='220' height='24' rx='4' fill='none' stroke='#2f2f2f' stroke-width='2'/>
+<text x='566' y='196' font-family='Helvetica, Arial, sans-serif' font-size='10' font-weight='700' fill='#2f2f2f' text-anchor='middle' letter-spacing='0.6'>ALL TOYS</text>
+<rect x='456' y='238' width='319' height='34' rx='4' fill='none' stroke='#2f2f2f' stroke-width='2'/>
+<circle cx='474' cy='255' r='8' fill='none' stroke='#2f2f2f' stroke-width='2'/>
+<line x1='480' y1='261' x2='486' y2='267' stroke='#2f2f2f' stroke-width='2' stroke-linecap='round'/>
+<rect x='490' y='251' width='120' height='8' rx='4.0' fill='none' stroke='#2f2f2f' stroke-width='2'/>
+<rect x='964' y='238' width='100' height='34' rx='4' fill='none' stroke='#2f2f2f' stroke-width='2'/>
+<text x='1014' y='260' font-family='Helvetica, Arial, sans-serif' font-size='9' font-weight='700' fill='#2f2f2f' text-anchor='middle' letter-spacing='0.6'>SORT</text>
+<rect x='1072' y='238' width='112' height='34' rx='4' fill='none' stroke='#2f2f2f' stroke-width='2'/>
+<text x='1128' y='260' font-family='Helvetica, Arial, sans-serif' font-size='9' font-weight='700' fill='#2f2f2f' text-anchor='middle' letter-spacing='0.6'>CATEGORY</text>
+<rect x='456' y='290' width='66' height='24' rx='12' fill='none' stroke='#2f2f2f' stroke-width='2'/>
+<rect x='468' y='298' width='42' height='8' rx='4.0' fill='none' stroke='#2f2f2f' stroke-width='2'/>
+<rect x='532' y='290' width='82' height='24' rx='12' fill='none' stroke='#2f2f2f' stroke-width='2'/>
+<rect x='544' y='298' width='58' height='8' rx='4.0' fill='none' stroke='#2f2f2f' stroke-width='2'/>
+<rect x='624' y='290' width='74' height='24' rx='12' fill='none' stroke='#2f2f2f' stroke-width='2'/>
+<rect x='636' y='298' width='50' height='8' rx='4.0' fill='none' stroke='#2f2f2f' stroke-width='2'/>
+<rect x='708' y='290' width='90' height='24' rx='12' fill='none' stroke='#2f2f2f' stroke-width='2'/>
+<rect x='720' y='298' width='66' height='8' rx='4.0' fill='none' stroke='#2f2f2f' stroke-width='2'/>
+<rect x='808' y='290' width='70' height='24' rx='12' fill='none' stroke='#2f2f2f' stroke-width='2'/>
+<rect x='820' y='298' width='46' height='8' rx='4.0' fill='none' stroke='#2f2f2f' stroke-width='2'/>
+<rect x='456' y='330' width='130' height='8' rx='4.0' fill='none' stroke='#2f2f2f' stroke-width='2'/>
+<rect x='456' y='356' width='172' height='241' rx='6' fill='none' stroke='#2f2f2f' stroke-width='2'/>
+<rect x='466' y='366' width='152' height='123' rx='4' fill='none' stroke='#2f2f2f' stroke-width='2'/>
+<circle cx='501' cy='396' r='11' fill='none' stroke='#2f2f2f' stroke-width='2'/>
+<path d='M 481 477 L 527 408 L 566 477 Z' fill='none' stroke='#2f2f2f' stroke-width='2' stroke-linejoin='round' stroke-linecap='round'/>
+<path d='M 549 477 L 576 426 L 602 477 Z' fill='none' stroke='#2f2f2f' stroke-width='2' stroke-linejoin='round' stroke-linecap='round'/>
+<rect x='468' y='501' width='148' height='8' rx='4.0' fill='none' stroke='#2f2f2f' stroke-width='2'/>
+<rect x='468' y='516' width='91' height='8' rx='4.0' fill='none' stroke='#2f2f2f' stroke-width='2'/>
+<rect x='468' y='535' width='52' height='11' rx='5.5' fill='none' stroke='#2f2f2f' stroke-width='2'/>
+<rect x='468' y='555' width='84' height='26' rx='4' fill='#e6e6e6' stroke='#2f2f2f' stroke-width='2'/>
+<text x='510' y='572' font-family='Helvetica, Arial, sans-serif' font-size='10' font-weight='700' fill='#2f2f2f' text-anchor='middle' letter-spacing='0.6'>ADD</text>
+<rect x='560' y='555' width='56' height='26' rx='4' fill='none' stroke='#2f2f2f' stroke-width='2'/>
+<path d='M 587.6 573.58 C 578.6 567.28 584.0 561.88 587.6 566.98 C 591.2 561.88 596.6 567.28 587.6 573.58 Z' fill='none' stroke='#2f2f2f' stroke-width='2' stroke-linejoin='round' stroke-linecap='round'/>
+<rect x='642' y='356' width='172' height='241' rx='6' fill='none' stroke='#2f2f2f' stroke-width='2'/>
+<rect x='652' y='366' width='152' height='123' rx='4' fill='none' stroke='#2f2f2f' stroke-width='2'/>
+<circle cx='686' cy='396' r='11' fill='none' stroke='#2f2f2f' stroke-width='2'/>
+<path d='M 667 477 L 713 408 L 751 477 Z' fill='none' stroke='#2f2f2f' stroke-width='2' stroke-linejoin='round' stroke-linecap='round'/>
+<path d='M 735 477 L 761 426 L 788 477 Z' fill='none' stroke='#2f2f2f' stroke-width='2' stroke-linejoin='round' stroke-linecap='round'/>
+<rect x='654' y='501' width='148' height='8' rx='4.0' fill='none' stroke='#2f2f2f' stroke-width='2'/>
+<rect x='654' y='516' width='91' height='8' rx='4.0' fill='none' stroke='#2f2f2f' stroke-width='2'/>
+<rect x='654' y='535' width='52' height='11' rx='5.5' fill='none' stroke='#2f2f2f' stroke-width='2'/>
+<rect x='654' y='555' width='84' height='26' rx='4' fill='#e6e6e6' stroke='#2f2f2f' stroke-width='2'/>
+<text x='695' y='572' font-family='Helvetica, Arial, sans-serif' font-size='10' font-weight='700' fill='#2f2f2f' text-anchor='middle' letter-spacing='0.6'>ADD</text>
+<rect x='745' y='555' width='56' height='26' rx='4' fill='none' stroke='#2f2f2f' stroke-width='2'/>
+<path d='M 773.1 573.58 C 764.1 567.28 769.5 561.88 773.1 566.98 C 776.7 561.88 782.1 567.28 773.1 573.58 Z' fill='none' stroke='#2f2f2f' stroke-width='2' stroke-linejoin='round' stroke-linecap='round'/>
+<rect x='827' y='356' width='172' height='241' rx='6' fill='none' stroke='#2f2f2f' stroke-width='2'/>
+<rect x='837' y='366' width='152' height='123' rx='4' fill='none' stroke='#2f2f2f' stroke-width='2'/>
+<circle cx='872' cy='396' r='11' fill='none' stroke='#2f2f2f' stroke-width='2'/>
+<path d='M 852 477 L 898 408 L 937 477 Z' fill='none' stroke='#2f2f2f' stroke-width='2' stroke-linejoin='round' stroke-linecap='round'/>
+<path d='M 920 477 L 947 426 L 973 477 Z' fill='none' stroke='#2f2f2f' stroke-width='2' stroke-linejoin='round' stroke-linecap='round'/>
+<rect x='839' y='501' width='148' height='8' rx='4.0' fill='none' stroke='#2f2f2f' stroke-width='2'/>
+<rect x='839' y='516' width='91' height='8' rx='4.0' fill='none' stroke='#2f2f2f' stroke-width='2'/>
+<rect x='839' y='535' width='52' height='11' rx='5.5' fill='none' stroke='#2f2f2f' stroke-width='2'/>
+<rect x='839' y='555' width='84' height='26' rx='4' fill='#e6e6e6' stroke='#2f2f2f' stroke-width='2'/>
+<text x='881' y='572' font-family='Helvetica, Arial, sans-serif' font-size='10' font-weight='700' fill='#2f2f2f' text-anchor='middle' letter-spacing='0.6'>ADD</text>
+<rect x='931' y='555' width='56' height='26' rx='4' fill='none' stroke='#2f2f2f' stroke-width='2'/>
+<path d='M 958.6 573.58 C 949.6 567.28 955.0 561.88 958.6 566.98 C 962.2 561.88 967.6 567.28 958.6 573.58 Z' fill='none' stroke='#2f2f2f' stroke-width='2' stroke-linejoin='round' stroke-linecap='round'/>
+<rect x='1012' y='356' width='172' height='241' rx='6' fill='none' stroke='#2f2f2f' stroke-width='2'/>
+<rect x='1022' y='366' width='152' height='123' rx='4' fill='none' stroke='#2f2f2f' stroke-width='2'/>
+<circle cx='1057' cy='396' r='11' fill='none' stroke='#2f2f2f' stroke-width='2'/>
+<path d='M 1038 477 L 1084 408 L 1122 477 Z' fill='none' stroke='#2f2f2f' stroke-width='2' stroke-linejoin='round' stroke-linecap='round'/>
+<path d='M 1106 477 L 1132 426 L 1159 477 Z' fill='none' stroke='#2f2f2f' stroke-width='2' stroke-linejoin='round' stroke-linecap='round'/>
+<rect x='1024' y='501' width='148' height='8' rx='4.0' fill='none' stroke='#2f2f2f' stroke-width='2'/>
+<rect x='1024' y='516' width='91' height='8' rx='4.0' fill='none' stroke='#2f2f2f' stroke-width='2'/>
+<rect x='1024' y='535' width='52' height='11' rx='5.5' fill='none' stroke='#2f2f2f' stroke-width='2'/>
+<rect x='1024' y='555' width='84' height='26' rx='4' fill='#e6e6e6' stroke='#2f2f2f' stroke-width='2'/>
+<text x='1066' y='572' font-family='Helvetica, Arial, sans-serif' font-size='10' font-weight='700' fill='#2f2f2f' text-anchor='middle' letter-spacing='0.6'>ADD</text>
+<rect x='1116' y='555' width='56' height='26' rx='4' fill='none' stroke='#2f2f2f' stroke-width='2'/>
+<path d='M 1144.1000000000001 573.58 C 1135.1000000000001 567.28 1140.5000000000002 561.88 1144.1000000000001 566.98 C 1147.7 561.88 1153.1000000000001 567.28 1144.1000000000001 573.58 Z' fill='none' stroke='#2f2f2f' stroke-width='2' stroke-linejoin='round' stroke-linecap='round'/>
+<rect x='456' y='611' width='172' height='241' rx='6' fill='none' stroke='#2f2f2f' stroke-width='2'/>
+<rect x='466' y='621' width='152' height='123' rx='4' fill='none' stroke='#2f2f2f' stroke-width='2'/>
+<circle cx='501' cy='652' r='11' fill='none' stroke='#2f2f2f' stroke-width='2'/>
+<path d='M 481 733 L 527 663 L 566 733 Z' fill='none' stroke='#2f2f2f' stroke-width='2' stroke-linejoin='round' stroke-linecap='round'/>
+<path d='M 549 733 L 576 681 L 602 733 Z' fill='none' stroke='#2f2f2f' stroke-width='2' stroke-linejoin='round' stroke-linecap='round'/>
+<rect x='468' y='757' width='148' height='8' rx='4.0' fill='none' stroke='#2f2f2f' stroke-width='2'/>
+<rect x='468' y='772' width='91' height='8' rx='4.0' fill='none' stroke='#2f2f2f' stroke-width='2'/>
+<rect x='468' y='791' width='52' height='11' rx='5.5' fill='none' stroke='#2f2f2f' stroke-width='2'/>
+<rect x='468' y='811' width='84' height='26' rx='4' fill='#e6e6e6' stroke='#2f2f2f' stroke-width='2'/>
+<text x='510' y='828' font-family='Helvetica, Arial, sans-serif' font-size='10' font-weight='700' fill='#2f2f2f' text-anchor='middle' letter-spacing='0.6'>ADD</text>
+<rect x='560' y='811' width='56' height='26' rx='4' fill='none' stroke='#2f2f2f' stroke-width='2'/>
+<path d='M 587.6 829.0600000000001 C 578.6 822.76 584.0 817.36 587.6 822.46 C 591.2 817.36 596.6 822.76 587.6 829.0600000000001 Z' fill='none' stroke='#2f2f2f' stroke-width='2' stroke-linejoin='round' stroke-linecap='round'/>
+<rect x='642' y='611' width='172' height='241' rx='6' fill='none' stroke='#2f2f2f' stroke-width='2'/>
+<rect x='652' y='621' width='152' height='123' rx='4' fill='none' stroke='#2f2f2f' stroke-width='2'/>
+<circle cx='686' cy='652' r='11' fill='none' stroke='#2f2f2f' stroke-width='2'/>
+<path d='M 667 733 L 713 663 L 751 733 Z' fill='none' stroke='#2f2f2f' stroke-width='2' stroke-linejoin='round' stroke-linecap='round'/>
+<path d='M 735 733 L 761 681 L 788 733 Z' fill='none' stroke='#2f2f2f' stroke-width='2' stroke-linejoin='round' stroke-linecap='round'/>
+<rect x='654' y='757' width='148' height='8' rx='4.0' fill='none' stroke='#2f2f2f' stroke-width='2'/>
+<rect x='654' y='772' width='91' height='8' rx='4.0' fill='none' stroke='#2f2f2f' stroke-width='2'/>
+<rect x='654' y='791' width='52' height='11' rx='5.5' fill='none' stroke='#2f2f2f' stroke-width='2'/>
+<rect x='654' y='811' width='84' height='26' rx='4' fill='#e6e6e6' stroke='#2f2f2f' stroke-width='2'/>
+<text x='695' y='828' font-family='Helvetica, Arial, sans-serif' font-size='10' font-weight='700' fill='#2f2f2f' text-anchor='middle' letter-spacing='0.6'>ADD</text>
+<rect x='745' y='811' width='56' height='26' rx='4' fill='none' stroke='#2f2f2f' stroke-width='2'/>
+<path d='M 773.1 829.0600000000001 C 764.1 822.76 769.5 817.36 773.1 822.46 C 776.7 817.36 782.1 822.76 773.1 829.0600000000001 Z' fill='none' stroke='#2f2f2f' stroke-width='2' stroke-linejoin='round' stroke-linecap='round'/>
+<rect x='827' y='611' width='172' height='241' rx='6' fill='none' stroke='#2f2f2f' stroke-width='2'/>
+<rect x='837' y='621' width='152' height='123' rx='4' fill='none' stroke='#2f2f2f' stroke-width='2'/>
+<circle cx='872' cy='652' r='11' fill='none' stroke='#2f2f2f' stroke-width='2'/>
+<path d='M 852 733 L 898 663 L 937 733 Z' fill='none' stroke='#2f2f2f' stroke-width='2' stroke-linejoin='round' stroke-linecap='round'/>
+<path d='M 920 733 L 947 681 L 973 733 Z' fill='none' stroke='#2f2f2f' stroke-width='2' stroke-linejoin='round' stroke-linecap='round'/>
+<rect x='839' y='757' width='148' height='8' rx='4.0' fill='none' stroke='#2f2f2f' stroke-width='2'/>
+<rect x='839' y='772' width='91' height='8' rx='4.0' fill='none' stroke='#2f2f2f' stroke-width='2'/>
+<rect x='839' y='791' width='52' height='11' rx='5.5' fill='none' stroke='#2f2f2f' stroke-width='2'/>
+<rect x='839' y='811' width='84' height='26' rx='4' fill='#e6e6e6' stroke='#2f2f2f' stroke-width='2'/>
+<text x='881' y='828' font-family='Helvetica, Arial, sans-serif' font-size='10' font-weight='700' fill='#2f2f2f' text-anchor='middle' letter-spacing='0.6'>ADD</text>
+<rect x='931' y='811' width='56' height='26' rx='4' fill='none' stroke='#2f2f2f' stroke-width='2'/>
+<path d='M 958.6 829.0600000000001 C 949.6 822.76 955.0 817.36 958.6 822.46 C 962.2 817.36 967.6 822.76 958.6 829.0600000000001 Z' fill='none' stroke='#2f2f2f' stroke-width='2' stroke-linejoin='round' stroke-linecap='round'/>
+<rect x='1012' y='611' width='172' height='241' rx='6' fill='none' stroke='#2f2f2f' stroke-width='2'/>
+<rect x='1022' y='621' width='152' height='123' rx='4' fill='none' stroke='#2f2f2f' stroke-width='2'/>
+<circle cx='1057' cy='652' r='11' fill='none' stroke='#2f2f2f' stroke-width='2'/>
+<path d='M 1038 733 L 1084 663 L 1122 733 Z' fill='none' stroke='#2f2f2f' stroke-width='2' stroke-linejoin='round' stroke-linecap='round'/>
+<path d='M 1106 733 L 1132 681 L 1159 733 Z' fill='none' stroke='#2f2f2f' stroke-width='2' stroke-linejoin='round' stroke-linecap='round'/>
+<rect x='1024' y='757' width='148' height='8' rx='4.0' fill='none' stroke='#2f2f2f' stroke-width='2'/>
+<rect x='1024' y='772' width='91' height='8' rx='4.0' fill='none' stroke='#2f2f2f' stroke-width='2'/>
+<rect x='1024' y='791' width='52' height='11' rx='5.5' fill='none' stroke='#2f2f2f' stroke-width='2'/>
+<rect x='1024' y='811' width='84' height='26' rx='4' fill='#e6e6e6' stroke='#2f2f2f' stroke-width='2'/>
+<text x='1066' y='828' font-family='Helvetica, Arial, sans-serif' font-size='10' font-weight='700' fill='#2f2f2f' text-anchor='middle' letter-spacing='0.6'>ADD</text>
+<rect x='1116' y='811' width='56' height='26' rx='4' fill='none' stroke='#2f2f2f' stroke-width='2'/>
+<path d='M 1144.1000000000001 829.0600000000001 C 1135.1000000000001 822.76 1140.5000000000002 817.36 1144.1000000000001 822.46 C 1147.7 817.36 1153.1000000000001 822.76 1144.1000000000001 829.0600000000001 Z' fill='none' stroke='#2f2f2f' stroke-width='2' stroke-linejoin='round' stroke-linecap='round'/>
+<rect x='732' y='873' width='28' height='28' rx='4' fill='#e6e6e6' stroke='#2f2f2f' stroke-width='2'/>
+<rect x='768' y='873' width='28' height='28' rx='4' fill='none' stroke='#2f2f2f' stroke-width='2'/>
+<rect x='804' y='873' width='28' height='28' rx='4' fill='none' stroke='#2f2f2f' stroke-width='2'/>
+<rect x='840' y='873' width='28' height='28' rx='4' fill='none' stroke='#2f2f2f' stroke-width='2'/>
+<rect x='876' y='873' width='28' height='28' rx='4' fill='none' stroke='#2f2f2f' stroke-width='2'/>
+<rect x='440' y='921' width='760' height='0' rx='4' fill='none' stroke='#2f2f2f' stroke-width='2'/>
+<line x1='440' y1='921' x2='1200' y2='921' stroke='#2f2f2f' stroke-width='2' stroke-linecap='round'/>
+<circle cx='470' cy='965' r='18' fill='none' stroke='#2f2f2f' stroke-width='2'/>
+<text x='470' y='969' font-family='Helvetica, Arial, sans-serif' font-size='9' font-weight='700' fill='#2f2f2f' text-anchor='middle' letter-spacing='0.6'>LOGO</text>
+<rect x='498' y='953' width='150' height='7' rx='3.5' fill='none' stroke='#2f2f2f' stroke-width='2'/>
+<rect x='498' y='967' width='93' height='7' rx='3.5' fill='none' stroke='#2f2f2f' stroke-width='2'/>
+<rect x='670' y='947' width='74' height='8' rx='4.0' fill='none' stroke='#2f2f2f' stroke-width='2'/>
+<rect x='670' y='965' width='84' height='7' rx='3.5' fill='none' stroke='#2f2f2f' stroke-width='2'/>
+<rect x='670' y='980' width='84' height='7' rx='3.5' fill='none' stroke='#2f2f2f' stroke-width='2'/>
+<rect x='670' y='995' width='84' height='7' rx='3.5' fill='none' stroke='#2f2f2f' stroke-width='2'/>
+<rect x='670' y='1010' width='52' height='7' rx='3.5' fill='none' stroke='#2f2f2f' stroke-width='2'/>
+<rect x='774' y='947' width='74' height='8' rx='4.0' fill='none' stroke='#2f2f2f' stroke-width='2'/>
+<rect x='774' y='965' width='84' height='7' rx='3.5' fill='none' stroke='#2f2f2f' stroke-width='2'/>
+<rect x='774' y='980' width='84' height='7' rx='3.5' fill='none' stroke='#2f2f2f' stroke-width='2'/>
+<rect x='774' y='995' width='84' height='7' rx='3.5' fill='none' stroke='#2f2f2f' stroke-width='2'/>
+<rect x='774' y='1010' width='52' height='7' rx='3.5' fill='none' stroke='#2f2f2f' stroke-width='2'/>
+<rect x='878' y='947' width='74' height='8' rx='4.0' fill='none' stroke='#2f2f2f' stroke-width='2'/>
+<rect x='878' y='965' width='84' height='7' rx='3.5' fill='none' stroke='#2f2f2f' stroke-width='2'/>
+<rect x='878' y='980' width='84' height='7' rx='3.5' fill='none' stroke='#2f2f2f' stroke-width='2'/>
+<rect x='878' y='995' width='84' height='7' rx='3.5' fill='none' stroke='#2f2f2f' stroke-width='2'/>
+<rect x='878' y='1010' width='52' height='7' rx='3.5' fill='none' stroke='#2f2f2f' stroke-width='2'/>
+<rect x='976' y='945' width='208' height='20' rx='4' fill='none' stroke='#2f2f2f' stroke-width='2'/>
+<text x='1080' y='958' font-family='Helvetica, Arial, sans-serif' font-size='9' font-weight='700' fill='#2f2f2f' text-anchor='middle' letter-spacing='0.6'>NEWSLETTER</text>
+<rect x='976' y='973' width='138' height='28' rx='4' fill='none' stroke='#2f2f2f' stroke-width='2'/>
+<rect x='1124' y='973' width='60' height='28' rx='4' fill='#e6e6e6' stroke='#2f2f2f' stroke-width='2'/>
+<text x='1154' y='991' font-family='Helvetica, Arial, sans-serif' font-size='10' font-weight='700' fill='#2f2f2f' text-anchor='middle' letter-spacing='0.6'>SEND</text>
+<line x1='440' y1='1059' x2='1200' y2='1059' stroke='#8d8d8d' stroke-width='1' stroke-linecap='round'/>
+<rect x='760' y='1069' width='120' height='7' rx='3.5' fill='none' stroke='#2f2f2f' stroke-width='2'/>
+<text x='28' y='70' font-family='Helvetica, Arial, sans-serif' font-size='10' font-weight='400' fill='#8d8d8d' text-anchor='start' letter-spacing='0.2'>MOBILE - 375px (designed first)</text>
+<rect x='28' y='80' width='364' height='1725' rx='10' fill='none' stroke='#8d8d8d' stroke-width='2' stroke-dasharray='6 5'/>
+<text x='428' y='70' font-family='Helvetica, Arial, sans-serif' font-size='10' font-weight='400' fill='#8d8d8d' text-anchor='start' letter-spacing='0.2'>DESKTOP - 1180px</text>
+<rect x='428' y='80' width='784' height='1019' rx='10' fill='none' stroke='#8d8d8d' stroke-width='2' stroke-dasharray='6 5'/>
 </svg>
