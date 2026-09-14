@@ -1,5 +1,5 @@
 /* Print-friendly stylesheet for the Toy Haven submission document. */
-:root{--ink:#17161c;--soft:#56545f;--line:#ddd9e8;--brand:#5b2bd9;--bg:#ffffff;--ok:#0b7a4b;}
+:root{--ink:#17161c;--soft:#333333;--line:#ddd9e8;--brand:#000000;--bg:#ffffff;--ok:#000000;}
 *{box-sizing:border-box}
 body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.65 "Helvetica Neue",Arial,sans-serif}
 .page{max-width:960px;margin:0 auto;padding:48px 32px 96px}
@@ -9,10 +9,10 @@ h3{font-size:1.15rem;margin:28px 0 8px}
 p,li{max-width:78ch}
 table{width:100%;border-collapse:collapse;margin:14px 0 26px;font-size:0.86rem}
 th,td{border:1px solid var(--line);padding:7px 9px;text-align:left;vertical-align:top}
-th{background:#f4f1fa}
+th{background:#f0f0f0}
 caption{caption-side:top;text-align:left;font-weight:700;padding-bottom:6px}
-code{background:#f4f1fa;padding:1px 5px;border-radius:4px;font-size:0.9em}
-.meta{border:1px solid var(--line);border-radius:10px;padding:16px 20px;background:#faf8ff}
+code{background:#f2f2f2;padding:1px 5px;border-radius:4px;font-size:0.9em}
+.meta{border:1px solid var(--line);border-radius:10px;padding:16px 20px;background:#f8f8f8}
 .meta dl{display:grid;grid-template-columns:170px 1fr;gap:6px 16px;margin:0}
 .meta dt{font-weight:700;color:var(--soft)}
 .meta dd{margin:0}
@@ -20,7 +20,7 @@ code{background:#f4f1fa;padding:1px 5px;border-radius:4px;font-size:0.9em}
 .muted{color:var(--soft)}
 .wire{width:100%;border:1px solid var(--line);border-radius:10px;margin:10px 0 26px;background:#fff}
 .grid2{display:grid;grid-template-columns:1fr 1fr;gap:20px}
-.callout{border-left:4px solid var(--brand);background:#f7f5ff;padding:12px 16px;border-radius:0 8px 8px 0}
+.callout{border-left:4px solid var(--brand);background:#f6f6f6;padding:12px 16px;border-radius:0 8px 8px 0}
 a{color:var(--brand)}
 @media print{
   body{font-size:11pt}
@@ -31,3 +31,7 @@ a{color:var(--brand)}
   .wire{page-break-inside:avoid;max-height:8.9in;width:auto;max-width:100%;object-fit:contain;display:block;margin-inline:auto}
 }
 @media (max-width:720px){.grid2{grid-template-columns:1fr}.meta dl{grid-template-columns:1fr}}
+.shots td{width:44%;vertical-align:top}
+.shots th{width:12%}
+.shots img.shot{width:100%;height:auto;border:1px solid var(--line);border-radius:6px;display:block}
+.wide{width:100%;border:1px solid var(--line);border-radius:8px;margin:10px 0 18px;display:block}

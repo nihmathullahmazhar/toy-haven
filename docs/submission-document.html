@@ -10,7 +10,7 @@
 <div class="page">
 
 <h1>Toy Haven</h1>
-<p class="muted">Assignment 3 — COMP40053 — front-end website submission document</p>
+<p class="muted">Assignment 3, COMP40053: front-end website submission document</p>
 
 <div class="meta">
   <dl>
@@ -29,36 +29,36 @@
 
 <h2>1. Overview</h2>
 <p>
-  Toy Haven is a multi-page front-end store for collectible figurines, toys, board games and
-  diecast model cars. It was built mobile-first with no frameworks: three organised stylesheets,
-  one shared JavaScript core and one small script per page. The 24-product catalogue is a JSON
-  array in <code>js/data.js</code>, so every listing, card, modal, basket row and order line is
-  rendered from a single source of data.
+  Toy Haven is a six-page front-end store selling collectible figurines, toys, board games and
+  diecast model cars. I built it mobile first and without a framework, so the whole site is three
+  stylesheets, one shared JavaScript file and a small script for each page. All 24 products sit in
+  a single JSON array in <code>js/data.js</code>, and every listing, card, modal, basket row and
+  order line is drawn from that one array.
 </p>
 <p>
-  Because there is no back end, every interaction that a real store would send to a server is
-  instead written to <code>localStorage</code>: the basket survives a page refresh and a browser
-  restart, the wishlist keeps a status per product, checkout writes an order into a local history,
-  and the feedback form stores each message so the visitor can see exactly what was captured.
-  The site is also a progressive web app — it can be installed to a home screen and previously
-  visited pages keep working with no connection.
+  There is no server behind the site, so anything a real shop would send to one is saved in
+  <code>localStorage</code> instead. The basket survives a refresh and a browser restart, the
+  wishlist remembers a status for each product, checkout writes the order into a local order
+  history, and the feedback form keeps every message so the visitor can see what was actually
+  recorded. The site is also a progressive web app, which means it can be installed to a home
+  screen and pages that have already been visited still open with no connection.
 </p>
 
 <h2>2. Planning and design</h2>
 
 <h3>2.1 Approach</h3>
 <p>
-  Every page was wireframed at 375px first and then widened, which is why the CSS contains only
-  <code>min-width</code> media queries: the mobile layout is the default and larger screens add
-  columns rather than remove them. The breakpoints used throughout are <strong>40em (640px)</strong>
-  for small tablets, <strong>48em (768px)</strong> for the modal and footer, <strong>55em (880px)</strong>
-  where the navigation collapses into the animated hamburger, and <strong>60em (960px)</strong> for
-  the full desktop layout.
+  I drew every page at 375px first and widened it from there, which is why the CSS only uses
+  <code>min-width</code> media queries. The mobile layout is the default and wider screens add
+  columns rather than take them away. There are four breakpoints: <strong>40em (640px)</strong>
+  for small tablets, <strong>48em (768px)</strong> for the modal and the footer,
+  <strong>55em (880px)</strong> where the navigation turns into the animated hamburger, and
+  <strong>60em (960px)</strong> for the full desktop layout.
 </p>
 
 <h3>2.2 Colour palette and typography</h3>
 <table>
-  <caption>Design tokens — declared once in <code>css/base.css</code> and reused everywhere</caption>
+  <caption>Design tokens, declared once in <code>css/base.css</code> and reused everywhere</caption>
   <thead><tr><th>Token</th><th>Value</th><th>Used for</th></tr></thead>
   <tbody>
     <tr><td><code>--brand</code></td><td>#5b2bd9 violet</td><td>Primary buttons, links, active states, price</td></tr>
@@ -72,19 +72,19 @@
   </tbody>
 </table>
 <p>
-  The same tokens are redefined once under <code>[data-theme="dark"]</code>, which is how the
-  theme switch in the header recolours the entire site without duplicating a single rule. Both
-  themes were checked for contrast and both pass at AA.
+  The same tokens are declared a second time under <code>[data-theme="dark"]</code>, and that is
+  all the theme switch in the header needs in order to recolour the site. No rule is written
+  twice. I checked both themes for contrast and both pass at AA.
 </p>
 
 <h3>2.3 Wireframes</h3>
 <p>
-  Each wireframe shows the mobile layout that was designed first next to the desktop layout it
-  grows into. They follow the low-fidelity conventions taught in the module: black and white
-  lines only, no graphics, no dummy text and no colour, so the discussion stays on structure,
-  hierarchy and functionality rather than on visual design.
+  Each wireframe puts the mobile layout I designed first next to the desktop layout it grows into.
+  They keep to the low-fidelity conventions taught in the module: black and white lines, no
+  graphics, no dummy text and no colour, so the discussion stays on structure, hierarchy and
+  function rather than on visual design.
 </p>
-<p>The notation used throughout is:</p>
+<p>The notation I used is:</p>
 <ul>
   <li>A <strong>rounded outline bar</strong> is one line of text; a few stacked inside a box are a block of copy.</li>
   <li>A <strong>solid black bar</strong> is a heading or an emphasised label such as a price.</li>
@@ -139,9 +139,9 @@
 
 <h2>4. JavaScript architecture and reusable functions</h2>
 <p>
-  <code>js/app.js</code> returns one object, <code>TH</code>, that every page uses; <code>js/components.js</code>
-  returns <code>THUI</code>, which owns the shared markup. Nothing that appears on more than one page is
-  written twice.
+  <code>js/app.js</code> returns a single object called <code>TH</code> that every page uses, and
+  <code>js/components.js</code> returns <code>THUI</code>, which owns the markup shared between
+  pages. If something appears on more than one page it is written once and reused.
 </p>
 <table>
   <caption>Shared functions and where they are reused</caption>
@@ -164,17 +164,17 @@
 
 <h3>5.1 How the site was tested</h3>
 <ul>
-  <li><strong>Functional testing</strong> — the 48 test cases below were executed in Google Chrome 152 on macOS, against the deployed site and a local server.</li>
-  <li><strong>HTML validity</strong> — every page submitted to the W3C Nu Markup Validation Service.</li>
-  <li><strong>CSS validity</strong> — all three stylesheets submitted to the W3C CSS Validation Service (CSS level 3 + SVG profile).</li>
-  <li><strong>Accessibility</strong> — WAVE and axe-core run on every page, in both light and dark themes, including the open modal and the invalid-form state.</li>
-  <li><strong>Lighthouse</strong> — every page audited in both the mobile and desktop presets.</li>
-  <li><strong>Responsiveness</strong> — checked at 320, 375, 414, 768, 1024, 1280 and 1600px.</li>
+  <li><strong>Functional testing</strong>: the 48 test cases below were executed in Google Chrome 152 on macOS, against the deployed site and a local server.</li>
+  <li><strong>HTML validity</strong>: every page submitted to the W3C Nu Markup Validation Service.</li>
+  <li><strong>CSS validity</strong>: all three stylesheets submitted to the W3C CSS Validation Service (CSS level 3 + SVG profile).</li>
+  <li><strong>Accessibility</strong>: WAVE and axe-core run on every page, in both light and dark themes, including the open modal and the invalid-form state.</li>
+  <li><strong>Lighthouse</strong>: every page audited in both the mobile and desktop presets.</li>
+  <li><strong>Responsiveness</strong>: checked at 320, 375, 414, 768, 1024, 1280 and 1600px.</li>
 </ul>
 
 <h3>5.2 Test cases</h3>
 <table>
-  <caption>48 functional test cases — all executed and passed</caption>
+  <caption>48 functional test cases, all executed and passed</caption>
   <thead>
     <tr><th>ID</th><th>Area</th><th>Test</th><th>Steps</th><th>Expected result</th><th>Status</th></tr>
   </thead>
@@ -230,7 +230,7 @@
   </tbody>
 </table>
 
-<h3>5.3 HTML validation — W3C Nu Markup Validation Service</h3>
+<h3>5.3 HTML validation: W3C Nu Markup Validation Service</h3>
 <table>
   <caption>Every page returns no errors and no warnings</caption>
   <thead><tr><th>Page</th><th>Errors</th><th>Warnings</th><th>Result</th></tr></thead>
@@ -245,13 +245,13 @@
   </tbody>
 </table>
 <p class="muted">
-  Two issues were found and fixed during validation: an <code>&lt;aside&gt;</code> nested inside a
-  section was changed to a titled <code>&lt;section&gt;</code>, and the deprecated space-separated
-  <code>clip: rect(0 0 0 0)</code> shorthand in the screen-reader utility was rewritten with commas
-  and paired with <code>clip-path</code>.
+  Validation turned up two problems and both were fixed. An <code>&lt;aside&gt;</code> was nested
+  inside a section, so it became a titled <code>&lt;section&gt;</code>, and the screen-reader
+  utility still used the old space-separated <code>clip: rect(0 0 0 0)</code> shorthand, which I
+  rewrote with commas and paired with <code>clip-path</code>.
 </p>
 
-<h3>5.4 CSS validation — W3C CSS Validation Service</h3>
+<h3>5.4 CSS validation: W3C CSS Validation Service</h3>
 <table>
   <caption>CSS level 3 + SVG profile</caption>
   <thead><tr><th>Stylesheet</th><th>Errors</th><th>Warnings</th><th>Result</th></tr></thead>
@@ -262,13 +262,21 @@
   </tbody>
 </table>
 <p class="muted">
-  The warnings are informational: the validator cannot resolve the value of a CSS custom property
-  at validation time, so it reports one warning for each use. The only other warning is the
-  <code>-webkit-text-size-adjust</code> vendor prefix, which is kept deliberately to stop iOS
-  Safari inflating text in landscape.
+  The warnings are informational. The validator cannot work out the value of a CSS custom property
+  while it is checking, so it raises one warning for every use. The only other warning is the
+  <code>-webkit-text-size-adjust</code> prefix, which I kept on purpose to stop iOS Safari
+  inflating text in landscape.
 </p>
 
-<h3>5.5 Accessibility — WAVE and axe-core</h3>
+<p>
+  The result pages for all three stylesheets are below, taken from the deployed site rather than
+  from local copies.
+</p>
+<img class="wide" src="screenshots/css-base.png" alt="W3C CSS Validation Service result for base.css: no errors found">
+<img class="wide" src="screenshots/css-components.png" alt="W3C CSS Validation Service result for components.css: no errors found">
+<img class="wide" src="screenshots/css-pages.png" alt="W3C CSS Validation Service result for pages.css: no errors found">
+
+<h3>5.5 Accessibility: WAVE and axe-core</h3>
 <table>
   <caption>Errors and contrast errors per page, in both themes</caption>
   <thead><tr><th>Page</th><th>Errors</th><th>Contrast errors</th><th>Result</th></tr></thead>
@@ -281,7 +289,7 @@
     <tr><td>Support (including an open FAQ answer)</td><td>0</td><td>0</td><td class="pass">Pass</td></tr>
   </tbody>
 </table>
-<p>Accessibility work that produced those results:</p>
+<p>The accessibility work behind those results:</p>
 <ul>
   <li>Landmarks on every page: <code>header</code>, <code>nav</code>, <code>main</code>, <code>footer</code>, plus a skip link.</li>
   <li>A visible label for every form control, errors announced with <code>role="alert"</code> and linked by <code>aria-invalid</code>.</li>
@@ -309,7 +317,7 @@
     <tr><td>Support</td><td>99</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td><td>100</td></tr>
   </tbody>
 </table>
-<p>All audits were run with Lighthouse 12.8 in headless Chrome. The first audit scored 84 on mobile. Three changes brought it to 99–100:</p>
+<p>Every audit was run with Lighthouse 12.8 in headless Chrome. My first run scored 84 on mobile. Three changes took it to 99&ndash;100:</p>
 <ol>
   <li>Google Fonts are now preloaded and applied without blocking the first paint, with a <code>&lt;noscript&gt;</code> fallback — this removed 1.75 seconds of render blocking.</li>
   <li>Every product and banner image ships in two sizes (320px and 640px products, 800px and 1280px banners) served through <code>srcset</code> and <code>sizes</code>.</li>
@@ -324,10 +332,10 @@
   </tbody>
 </table>
 <p class="muted">
-  Live performance is a few points lower than the local audit purely because of network latency:
-  Lighthouse measured a 900&nbsp;ms server response for the first request and GitHub Pages sets a
-  ten-minute cache lifetime, neither of which can be changed from the site&rsquo;s code. Total blocking
-  time is 0&nbsp;ms and cumulative layout shift is 0.029 on both presets.
+  The live scores sit a few points below the local ones because of network latency and nothing
+  else. Lighthouse measured a 900&nbsp;ms server response on the first request, and GitHub Pages
+  sets a ten-minute cache lifetime; neither can be changed from the site&rsquo;s own code. Total
+  blocking time is 0&nbsp;ms and cumulative layout shift is 0.029 on both presets.
 </p>
 
 <h3>5.7 Responsiveness</h3>
@@ -357,6 +365,25 @@
   </tbody>
 </table>
 
+<h3>5.9 Screenshots of the finished site</h3>
+<p>
+  The screenshots below were taken from the finished site in Chrome at two window widths, 390px
+  and 1280px, with nothing changed between the two apart from the width of the window. They are
+  the evidence behind the responsiveness table above: the same markup produces a single column
+  with a hamburger menu on a phone and a multi-column layout on a desktop.
+</p>
+<table class="shots">
+  <caption>Every page at 390px (left) and at 1280px (right)</caption>
+  <tbody>
+    <tr><th scope="row">Home</th><td><img class="shot" src="screenshots/index-mobile.png" alt="Home page at 390px"></td><td><img class="shot" src="screenshots/index-desktop.png" alt="Home page at 1280px"></td></tr>
+    <tr><th scope="row">Products</th><td><img class="shot" src="screenshots/products-mobile.png" alt="Products page at 390px"></td><td><img class="shot" src="screenshots/products-desktop.png" alt="Products page at 1280px"></td></tr>
+    <tr><th scope="row">Basket</th><td><img class="shot" src="screenshots/cart-mobile.png" alt="Basket page at 390px"></td><td><img class="shot" src="screenshots/cart-desktop.png" alt="Basket page at 1280px"></td></tr>
+    <tr><th scope="row">Checkout</th><td><img class="shot" src="screenshots/checkout-mobile.png" alt="Checkout page at 390px"></td><td><img class="shot" src="screenshots/checkout-desktop.png" alt="Checkout page at 1280px"></td></tr>
+    <tr><th scope="row">Wishlist</th><td><img class="shot" src="screenshots/wishlist-mobile.png" alt="Wishlist page at 390px"></td><td><img class="shot" src="screenshots/wishlist-desktop.png" alt="Wishlist page at 1280px"></td></tr>
+    <tr><th scope="row">Support</th><td><img class="shot" src="screenshots/support-mobile.png" alt="Support page at 390px"></td><td><img class="shot" src="screenshots/support-desktop.png" alt="Support page at 1280px"></td></tr>
+  </tbody>
+</table>
+
 <h2>6. Hosting and deployment</h2>
 <ol>
   <li>The project was committed to a dedicated repository named <code>toy-haven</code>.</li>
@@ -364,8 +391,8 @@
   <li>The site is publicly available at <a href="https://nihmathullahmazhar.github.io/toy-haven/">https://nihmathullahmazhar.github.io/toy-haven/</a> and was re-tested after deployment.</li>
 </ol>
 <p>
-  All paths are relative, so the site works both at the repository sub-path on GitHub Pages and
-  when served from the root of any other server.
+  Every path in the site is relative, so it works at the repository sub-path on GitHub Pages and
+  equally from the root of any other server.
 </p>
 
 <h2>7. Known limitations and future work</h2>
