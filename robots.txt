@@ -1,3 +1,0 @@
-User-agent: *
-Allow: /
-Sitemap: https://nihmathullahmazhar.github.io/toy-haven/sitemap.xml
