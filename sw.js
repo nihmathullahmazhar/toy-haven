@@ -6,7 +6,7 @@
    navigations that cannot be reached.
    ========================================================================== */
 
-const CACHE = "toyhaven-v2";
+const CACHE = "toyhaven-v3";
 
 const PRECACHE = [
   "./",
