@@ -125,11 +125,12 @@
   border: 1px solid #6b6878;
   border-radius: var(--radius-pill);
   background-color: transparent;
+  color: var(--ink);
   cursor: pointer;
   transition: background-color var(--speed) var(--ease), width var(--speed) var(--ease);
 }
 
-.hero__dot[aria-current="true"] { background-color: var(--brand); border-color: var(--brand); width: 46px; }
+.hero__dot[aria-current="true"] { background-color: var(--brand); border-color: var(--brand); color: #ffffff; width: 46px; }
 
 .hero__arrow {
   width: 42px;
